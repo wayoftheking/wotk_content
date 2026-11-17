@@ -23,3 +23,9 @@ Motivators:
 
 - Think about what we can build into the program that helps stoke people's motivations
 - Daily triggers! What helps people to easily go into the info
+- We can use info
+
+2 Processes:
+
+- Initially, how do we help people to meet / discover Jesus
+- How do we help people then to move into a discipleship process once they decide they are interested.
