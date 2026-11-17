@@ -2,9 +2,14 @@
 
 ## 2026 CW 47
 
+Systems:
+
+- Add apps to github
+- 
+
 Context:
 
-- Bible PDF (open source, deutsch - elberfelder, luther 1950, schlachter??)
+- [ ] Bible PDF (open source, deutsch - elberfelder, luther 1950, schlachter??)
 
 Plan:
 
