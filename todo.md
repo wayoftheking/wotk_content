@@ -18,3 +18,8 @@ Start interview process:
 - Go through each "lesson" together (record & transcribe)
 - Use AI to refine content
 - Do this for the entire content
+
+Motivators:
+
+- Think about what we can build into the program that helps stoke people's motivations
+- Daily triggers! What helps people to easily go into the info
