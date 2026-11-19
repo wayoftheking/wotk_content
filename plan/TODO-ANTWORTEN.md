@@ -60,7 +60,7 @@ neuen Garten (Offb 22), erzählt also die Bibel als einen Fluss. Siehe `GERUEST.
 Ablauf je Woche, rund 30 Minuten:
 
 1. Diego und Alex gehen die Wochendatei durch, mit dem Handy aufgenommen.
-2. Die Aufnahme wird **lokal** abgeschrieben (Whisper auf dem eigenen Rechner, nichts geht in eine Cloud).
+2. Die Aufnahme wird abgeschrieben (mit Gemini; wer mitspricht, weiß vorher, wo die Aufnahme liegt).
 3. Claude arbeitet das Gespräch in die Wochendatei ein: Deutung, Fragen, Geschichten von Alex.
 4. Die Änderung kommt als Pull Request hierher, ihr gebt sie frei.
 
