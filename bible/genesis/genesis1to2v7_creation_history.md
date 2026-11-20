@@ -1,4 +1,4 @@
-# Genesis 1:1-2:3 - Creation
+# Genesis 1:1-2:7 - Creation's History
 
 ## Notes
 
