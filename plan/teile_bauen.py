@@ -1,9 +1,9 @@
-"""Baut plan/HAEPPCHEN.md aus dem 3-Jahres-Plan und plan/haeppchen.csv.
+"""Baut plan/TEILE.md aus dem 3-Jahres-Plan und plan/teile.csv.
 
-Aufruf:  python plan/haeppchen_bauen.py   (Python 3, keine Zusatzpakete)
+Aufruf:  python plan/teile_bauen.py   (Python 3, keine Zusatzpakete)
 Liest die Reihenfolge aus read_plans/3y_plan_de.csv (im Repo) oder, falls die fehlt, aus
 quellen/3-jahres-leseplan-de.csv (lokale Kopie).
-Prüft dabei: jeder der 1.095 Schritte steht in genau einem Häppchen, keine Lücke, keine Überschneidung.
+Prüft dabei: jeder der 1.095 Schritte steht in genau einem Teil, keine Lücke, keine Überschneidung.
 """
 import csv
 import sys
@@ -13,8 +13,8 @@ from pathlib import Path
 WURZEL = Path(__file__).resolve().parent.parent
 PLAN = next((p for p in (WURZEL / "read_plans" / "3y_plan_de.csv", WURZEL / "quellen" / "3-jahres-leseplan-de.csv")
              if p.exists()), WURZEL / "read_plans" / "3y_plan_de.csv")
-HAEPPCHEN = WURZEL / "plan" / "haeppchen.csv"
-ZIEL = WURZEL / "plan" / "HAEPPCHEN.md"
+HAEPPCHEN = WURZEL / "plan" / "teile.csv"
+ZIEL = WURZEL / "plan" / "TEILE.md"
 
 TEILE = [
     (1, 6, "Zum Einstieg"),
@@ -69,21 +69,21 @@ def pruefe(schritte, haeppchen):
     erwartet = 1
     for i, h in enumerate(haeppchen, 1):
         if h["von"] != erwartet:
-            fehler.append(f"Häppchen {i} beginnt bei {h['von']}, erwartet {erwartet}")
+            fehler.append(f"Teil {i} beginnt bei {h['von']}, erwartet {erwartet}")
         if h["bis"] < h["von"]:
-            fehler.append(f"Häppchen {i}: bis vor von")
+            fehler.append(f"Teil {i}: bis vor von")
         if not h["titel"].strip() or not h["worum"].strip():
-            fehler.append(f"Häppchen {i}: Titel oder Satz fehlt")
+            fehler.append(f"Teil {i}: Titel oder Satz fehlt")
         erwartet = h["bis"] + 1
     if erwartet - 1 != max(schritte):
-        fehler.append(f"letztes Häppchen endet bei {erwartet - 1}, Plan hat {max(schritte)} Schritte")
+        fehler.append(f"letzter Teil endet bei {erwartet - 1}, Plan hat {max(schritte)} Schritte")
     for a, b in zip(TEILE, TEILE[1:]):
         if b[0] != a[1] + 1:
-            fehler.append(f"Teile nicht lückenlos bei {a[2]}")
+            fehler.append(f"Abschnitte nicht lückenlos bei {a[2]}")
     for h in haeppchen:
         teile = {t[2] for t in TEILE if t[0] <= h["von"] <= t[1]} | {t[2] for t in TEILE if t[0] <= h["bis"] <= t[1]}
         if len(teile) != 1:
-            fehler.append(f"Häppchen {h['titel']} liegt über einer Teilgrenze")
+            fehler.append(f"Teil {h['titel']} liegt über einer Abschnittsgrenze")
     for f in ("—", "–", "·"):
         for h in haeppchen:
             if f in h["titel"] + h["worum"]:
@@ -94,16 +94,16 @@ def pruefe(schritte, haeppchen):
 def baue(schritte, haeppchen):
     groessen = [h["bis"] - h["von"] + 1 for h in haeppchen]
     z = [
-        "# Der 3-Jahres-Plan in Häppchen",
+        "# Der 3-Jahres-Plan in Teilen",
         "",
-        "<!-- Erzeugt mit `python plan/haeppchen_bauen.py` aus `read_plans/3y_plan_de.csv` "
-        "(Reihenfolge) und `plan/haeppchen.csv` (Einteilung, Titel, ein Satz je Häppchen). Nicht von Hand "
+        "<!-- Erzeugt mit `python plan/teile_bauen.py` aus `read_plans/3y_plan_de.csv` "
+        "(Reihenfolge) und `plan/teile.csv` (Einteilung, Titel, ein Satz je Teil). Nicht von Hand "
         "ändern, sondern die beiden Quellen. Joel und Maleachi sind auf Luther-Zählung umgestellt. -->",
         "",
         f"Die Bibel ist eine Sammlung vieler Bücher. Dieser Plan führt in {max(schritte) // 1000}."
         f"{max(schritte) % 1000:03d} Schritten durch die 66 Bücher, die alle Kirchen gemeinsam haben. Ein Schritt ist ein Kapitel, manchmal zwei kurze oder ein paar Psalmen. Die Schritte "
-        f"sind zu {len(haeppchen)} Häppchen von {min(groessen)} bis {max(groessen)} Schritten zusammengefasst. "
-        "Jedes Häppchen hat einen Titel und einen Satz, worum es geht.",
+        f"sind zu {len(haeppchen)} Teilen von {min(groessen)} bis {max(groessen)} Schritten zusammengefasst, ohne Datum. "
+        "Jeder Teil hat einen Titel und einen Satz, worum es geht.",
         "",
         "**So liest du eine Angabe:** 1. Mose 3 heißt: Buch 1. Mose, Kapitel 3. Nehemia 9,5-37 heißt: "
         "Buch Nehemia, Kapitel 9, Verse 5 bis 37.",
@@ -114,14 +114,14 @@ def baue(schritte, haeppchen):
         "**Was du in einem Schritt tust:** das Kapitel lesen und kurz darüber nachdenken. Wer mag, betet oder "
         "spricht mit anderen darüber.",
         "",
-        "**Wo du anfängst:** bei Häppchen 1, einem Überblick über die ganze Geschichte. Wer lieber gleich mit "
-        "der Erzählung beginnt, startet bei Häppchen 2. Wer zuerst Jesus kennenlernen will, liest zuerst die "
-        "Häppchen 145 bis 147 (den Bericht des Markus über Jesus) und kommt danach zum Anfang zurück.",
+        "**Wo du anfängst:** bei Teil 1, einem Überblick über die ganze Geschichte. Wer lieber gleich mit "
+        "der Erzählung beginnt, startet bei Teil 2. Wer zuerst Jesus kennenlernen will, liest zuerst die "
+        "Teile 145 bis 147 (den Bericht des Markus über Jesus) und kommt danach zum Anfang zurück.",
         "",
         "**Die Reihenfolge** folgt ungefähr der Zeit, in der die Ereignisse geschahen, nicht dem "
         "Inhaltsverzeichnis der Bibel. Darum stehen Psalmen und Propheten mitten in den Geschichtsbüchern.",
         "",
-        "**Videos:** Manche Häppchen nennen kurze Erklärfilme von BibleProject zu einem Buch. Sie sind freiwillig.",
+        "**Videos:** Manche Teile nennen kurze Erklärfilme von BibleProject zu einem Buch. Sie sind freiwillig.",
         "",
         "**Dein Tempo:** Wer jeden Tag einen Schritt geht, ist nach rund 3 Jahren durch. Andere brauchen "
         "1 Jahr oder 5. Pausen sind normal, du machst dort weiter, wo du warst.",
@@ -150,7 +150,7 @@ def baue(schritte, haeppchen):
         "",
         "## Übersicht",
         "",
-        "| Teil | Schritte | Häppchen |",
+        "| Abschnitt | Schritte | Teile |",
         "|---|---|---|",
     ]
     nr_von = {}
@@ -158,17 +158,17 @@ def baue(schritte, haeppchen):
     for h in haeppchen:
         n += 1
         h["nr"] = n
-    for von, bis, name in TEILE:
+    for ab_nr, (von, bis, name) in enumerate(TEILE, 1):
         hs = [h for h in haeppchen if von <= h["von"] <= bis]
         nr_von[name] = hs
         nrs = str(hs[0]["nr"]) if len(hs) == 1 else f"{hs[0]['nr']} bis {hs[-1]['nr']}"
-        z.append(f"| {name} | {von} bis {bis} | {nrs} |")
-    for von, bis, name in TEILE:
-        z += ["", f"## {name}", ""]
+        z.append(f"| {ab_nr}. {name} | {von} bis {bis} | {nrs} |")
+    for ab_nr, (von, bis, name) in enumerate(TEILE, 1):
+        z += ["", f"## Abschnitt {ab_nr}: {name}", ""]
         for h in nr_von[name]:
             anz = h["bis"] - h["von"] + 1
             bereich = f"Schritt {h['von']}" if anz == 1 else f"Schritte {h['von']} bis {h['bis']}"
-            z += [f"### {h['nr']}. {h['titel']}", "", f"{bereich}. {h['worum']}", ""]
+            z += [f"### {h['titel']} (Teil {h['nr']})", "", f"{bereich}. {h['worum']}", ""]
             for s in range(h["von"], h["bis"] + 1):
                 eintrag = schritte[s]
                 z.append(f"- {s}: {'; '.join(eintrag['text'])}")
@@ -191,7 +191,7 @@ def main():
         sys.exit(1)
     ZIEL.write_text(baue(schritte, haeppchen), encoding="utf-8")
     g = [h["bis"] - h["von"] + 1 for h in haeppchen]
-    print(f"ok: {len(haeppchen)} Häppchen, Schritte je Häppchen {min(g)} bis {max(g)}, geschrieben nach {ZIEL}")
+    print(f"ok: {len(haeppchen)} Teile, Schritte je Teil {min(g)} bis {max(g)}, geschrieben nach {ZIEL}")
 
 
 if __name__ == "__main__":

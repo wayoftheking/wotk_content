@@ -1,8 +1,8 @@
-# Der 3-Jahres-Plan in Häppchen
+# Der 3-Jahres-Plan in Teilen
 
-<!-- Erzeugt mit `python plan/haeppchen_bauen.py` aus `read_plans/3y_plan_de.csv` (Reihenfolge) und `plan/haeppchen.csv` (Einteilung, Titel, ein Satz je Häppchen). Nicht von Hand ändern, sondern die beiden Quellen. Joel und Maleachi sind auf Luther-Zählung umgestellt. -->
+<!-- Erzeugt mit `python plan/teile_bauen.py` aus `read_plans/3y_plan_de.csv` (Reihenfolge) und `plan/teile.csv` (Einteilung, Titel, ein Satz je Teil). Nicht von Hand ändern, sondern die beiden Quellen. Joel und Maleachi sind auf Luther-Zählung umgestellt. -->
 
-Die Bibel ist eine Sammlung vieler Bücher. Dieser Plan führt in 1.095 Schritten durch die 66 Bücher, die alle Kirchen gemeinsam haben. Ein Schritt ist ein Kapitel, manchmal zwei kurze oder ein paar Psalmen. Die Schritte sind zu 189 Häppchen von 1 bis 8 Schritten zusammengefasst. Jedes Häppchen hat einen Titel und einen Satz, worum es geht.
+Die Bibel ist eine Sammlung vieler Bücher. Dieser Plan führt in 1.095 Schritten durch die 66 Bücher, die alle Kirchen gemeinsam haben. Ein Schritt ist ein Kapitel, manchmal zwei kurze oder ein paar Psalmen. Die Schritte sind zu 189 Teilen von 1 bis 8 Schritten zusammengefasst, ohne Datum. Jeder Teil hat einen Titel und einen Satz, worum es geht.
 
 **So liest du eine Angabe:** 1. Mose 3 heißt: Buch 1. Mose, Kapitel 3. Nehemia 9,5-37 heißt: Buch Nehemia, Kapitel 9, Verse 5 bis 37.
 
@@ -10,11 +10,11 @@ Die Bibel ist eine Sammlung vieler Bücher. Dieser Plan führt in 1.095 Schritte
 
 **Was du in einem Schritt tust:** das Kapitel lesen und kurz darüber nachdenken. Wer mag, betet oder spricht mit anderen darüber.
 
-**Wo du anfängst:** bei Häppchen 1, einem Überblick über die ganze Geschichte. Wer lieber gleich mit der Erzählung beginnt, startet bei Häppchen 2. Wer zuerst Jesus kennenlernen will, liest zuerst die Häppchen 145 bis 147 (den Bericht des Markus über Jesus) und kommt danach zum Anfang zurück.
+**Wo du anfängst:** bei Teil 1, einem Überblick über die ganze Geschichte. Wer lieber gleich mit der Erzählung beginnt, startet bei Teil 2. Wer zuerst Jesus kennenlernen will, liest zuerst die Teile 145 bis 147 (den Bericht des Markus über Jesus) und kommt danach zum Anfang zurück.
 
 **Die Reihenfolge** folgt ungefähr der Zeit, in der die Ereignisse geschahen, nicht dem Inhaltsverzeichnis der Bibel. Darum stehen Psalmen und Propheten mitten in den Geschichtsbüchern.
 
-**Videos:** Manche Häppchen nennen kurze Erklärfilme von BibleProject zu einem Buch. Sie sind freiwillig.
+**Videos:** Manche Teile nennen kurze Erklärfilme von BibleProject zu einem Buch. Sie sind freiwillig.
 
 **Dein Tempo:** Wer jeden Tag einen Schritt geht, ist nach rund 3 Jahren durch. Andere brauchen 1 Jahr oder 5. Pausen sind normal, du machst dort weiter, wo du warst.
 
@@ -42,26 +42,26 @@ Die Bibel ist eine Sammlung vieler Bücher. Dieser Plan führt in 1.095 Schritte
 
 ## Übersicht
 
-| Teil | Schritte | Häppchen |
+| Abschnitt | Schritte | Teile |
 |---|---|---|
-| Zum Einstieg | 1 bis 6 | 1 |
-| Am Anfang (1. Mose) | 7 bis 56 | 2 bis 9 |
-| Befreiung und Wüste (2. bis 5. Mose) | 57 bis 194 | 10 bis 33 |
-| Im versprochenen Land (Josua, Richter, Rut) | 195 bis 243 | 34 bis 42 |
-| Hiob | 244 bis 285 | 43 bis 49 |
-| Saul und David | 286 bis 395 | 50 bis 66 |
-| Salomo und die Weisheit | 396 bis 467 | 67 bis 78 |
-| Das geteilte Reich und seine Propheten | 468 bis 635 | 79 bis 107 |
-| Untergang und Exil | 636 bis 766 | 108 bis 129 |
-| Heimkehr und Wiederaufbau | 767 bis 841 | 130 bis 142 |
-| Jesus und die ersten Christen | 842 bis 896 | 143 bis 151 |
-| Paulus unterwegs | 897 bis 994 | 152 bis 170 |
-| Paulus in Haft, Briefe von Petrus und an die Hebräer | 995 bis 1023 | 171 bis 176 |
-| Lukas, Johannes und die Offenbarung | 1024 bis 1095 | 177 bis 189 |
+| 1. Zum Einstieg | 1 bis 6 | 1 |
+| 2. Am Anfang (1. Mose) | 7 bis 56 | 2 bis 9 |
+| 3. Befreiung und Wüste (2. bis 5. Mose) | 57 bis 194 | 10 bis 33 |
+| 4. Im versprochenen Land (Josua, Richter, Rut) | 195 bis 243 | 34 bis 42 |
+| 5. Hiob | 244 bis 285 | 43 bis 49 |
+| 6. Saul und David | 286 bis 395 | 50 bis 66 |
+| 7. Salomo und die Weisheit | 396 bis 467 | 67 bis 78 |
+| 8. Das geteilte Reich und seine Propheten | 468 bis 635 | 79 bis 107 |
+| 9. Untergang und Exil | 636 bis 766 | 108 bis 129 |
+| 10. Heimkehr und Wiederaufbau | 767 bis 841 | 130 bis 142 |
+| 11. Jesus und die ersten Christen | 842 bis 896 | 143 bis 151 |
+| 12. Paulus unterwegs | 897 bis 994 | 152 bis 170 |
+| 13. Paulus in Haft, Briefe von Petrus und an die Hebräer | 995 bis 1023 | 171 bis 176 |
+| 14. Lukas, Johannes und die Offenbarung | 1024 bis 1095 | 177 bis 189 |
 
-## Zum Einstieg
+## Abschnitt 1: Zum Einstieg
 
-### 1. Die ganze Geschichte im Zeitraffer
+### Die ganze Geschichte im Zeitraffer (Teil 1)
 
 Schritte 1 bis 6. Sechs Texte erzählen die Geschichte Gottes mit seinem Volk im Überblick, von Abraham bis Jesus.
 
@@ -73,9 +73,9 @@ Schritte 1 bis 6. Sechs Texte erzählen die Geschichte Gottes mit seinem Volk im
 - 6: Psalm 106
 
 
-## Am Anfang (1. Mose)
+## Abschnitt 2: Am Anfang (1. Mose)
 
-### 2. Wie alles begann und was schiefging
+### Wie alles begann und was schiefging (Teil 2)
 
 Schritte 7 bis 10. Gott schafft die Welt und den Menschen, der Mensch misstraut Gott, und gleich danach erschlägt Kain seinen Bruder.
 
@@ -86,7 +86,7 @@ Schritte 7 bis 10. Gott schafft die Welt und den Menschen, der Mensch misstraut 
 
 Video: [BibleProject: Genesis (1. Mose) Kap. 1-11](https://youtu.be/P9BxBKx8hlM)
 
-### 3. Flut und Turm
+### Flut und Turm (Teil 3)
 
 Schritte 11 bis 17. Die Gewalt wächst, Gott rettet Noah durch die Flut und schließt einen Bund, und in Babel wollen die Menschen sich selbst einen Namen machen.
 
@@ -98,7 +98,7 @@ Schritte 11 bis 17. Die Gewalt wächst, Gott rettet Noah durch die Flut und schl
 - 16: 1. Mose 10
 - 17: 1. Mose 11
 
-### 4. Abraham bricht auf
+### Abraham bricht auf (Teil 4)
 
 Schritte 18 bis 24. Gott ruft Abram aus seiner Heimat, verspricht ihm Land und Nachkommen und schließt einen Bund mit ihm, doch auf den Sohn muss er lange warten.
 
@@ -112,7 +112,7 @@ Schritte 18 bis 24. Gott ruft Abram aus seiner Heimat, verspricht ihm Land und N
 
 Video: [BibleProject: Genesis (1. Mose) Kap. 12-50](https://youtu.be/LgITkuI_46A)
 
-### 5. Isaak wird geboren
+### Isaak wird geboren (Teil 5)
 
 Schritte 25 bis 31. Sodom geht unter, der versprochene Sohn Isaak kommt zur Welt, Gott prüft Abraham am Berg Morija, Isaak heiratet Rebekka, und Abraham stirbt.
 
@@ -124,7 +124,7 @@ Schritte 25 bis 31. Sodom geht unter, der versprochene Sohn Isaak kommt zur Welt
 - 30: 1. Mose 24
 - 31: 1. Mose 25
 
-### 6. Jakob, der Betrüger
+### Jakob, der Betrüger (Teil 6)
 
 Schritte 32 bis 38. Jakob erschleicht sich den Segen, flieht, sieht im Traum die Himmelsleiter, dient zwanzig Jahre bei Laban und ringt am Jabbok mit Gott.
 
@@ -136,7 +136,7 @@ Schritte 32 bis 38. Jakob erschleicht sich den Segen, flieht, sieht im Traum die
 - 37: 1. Mose 31
 - 38: 1. Mose 32
 
-### 7. Jakob kommt heim
+### Jakob kommt heim (Teil 7)
 
 Schritte 39 bis 42. Jakob versöhnt sich mit Esau, seine Familie erlebt Gewalt in Sichem, und in Bethel bestätigt Gott seinen neuen Namen Israel.
 
@@ -145,7 +145,7 @@ Schritte 39 bis 42. Jakob versöhnt sich mit Esau, seine Familie erlebt Gewalt i
 - 41: 1. Mose 35
 - 42: 1. Mose 36
 
-### 8. Josef: verkauft und erhöht
+### Josef: verkauft und erhöht (Teil 8)
 
 Schritte 43 bis 49. Josefs Brüder verkaufen ihn nach Ägypten, er landet im Gefängnis, deutet Träume, wird zweiter Mann nach dem Pharao, und in der Hungersnot kommen die Brüder.
 
@@ -157,7 +157,7 @@ Schritte 43 bis 49. Josefs Brüder verkaufen ihn nach Ägypten, er landet im Gef
 - 48: 1. Mose 42
 - 49: 1. Mose 43
 
-### 9. Josef: Versöhnung
+### Josef: Versöhnung (Teil 9)
 
 Schritte 50 bis 56. Josef gibt sich seinen Brüdern zu erkennen, und Jakob zieht mit der ganzen Familie nach Ägypten. Vor seinem Tod segnet Jakob seine Söhne, und Josef erkennt, dass Gott das Böse zum Guten gewendet hat.
 
@@ -170,9 +170,9 @@ Schritte 50 bis 56. Josef gibt sich seinen Brüdern zu erkennen, und Jakob zieht
 - 56: 1. Mose 50
 
 
-## Befreiung und Wüste (2. bis 5. Mose)
+## Abschnitt 3: Befreiung und Wüste (2. bis 5. Mose)
 
-### 10. Mose wird gerufen
+### Mose wird gerufen (Teil 10)
 
 Schritte 57 bis 63. Israel wird in Ägypten versklavt, Mose wird als Kind gerettet, begegnet Gott im brennenden Dornbusch und tritt vor den Pharao, und die erste Plage beginnt.
 
@@ -186,7 +186,7 @@ Schritte 57 bis 63. Israel wird in Ägypten versklavt, Mose wird als Kind gerett
 
 Video: [BibleProject: Exodus (2. Mose) Kap. 1-18](https://youtu.be/bOhDKsdxwdk)
 
-### 11. Die Nacht der Befreiung
+### Die Nacht der Befreiung (Teil 11)
 
 Schritte 64 bis 70. Der Pharao bleibt hart, und Plage folgt auf Plage. In der Nacht des ersten Passafests verschont Gott die Häuser, deren Türen mit dem Blut eines Lammes bestrichen sind, und Israel zieht durch das Meer.
 
@@ -198,7 +198,7 @@ Schritte 64 bis 70. Der Pharao bleibt hart, und Plage folgt auf Plage. In der Na
 - 69: 2. Mose 13
 - 70: 2. Mose 14
 
-### 12. Durch die Wüste zum Sinai
+### Durch die Wüste zum Sinai (Teil 12)
 
 Schritte 71 bis 77. Israel singt nach der Rettung, murrt in der Wüste und bekommt Manna (Brot vom Himmel) und Wasser, und am Sinai gibt Gott die Zehn Gebote und erste Rechtsordnungen.
 
@@ -212,7 +212,7 @@ Schritte 71 bis 77. Israel singt nach der Rettung, murrt in der Wüste und bekom
 
 Video: [BibleProject: Exodus (2. Mose) Kap. 19-40](https://youtu.be/FDwxYLOigPM), [BibleProject: Himmel und Erde](https://youtu.be/ByQA2UdUpJc)
 
-### 13. Der Bund wird geschlossen
+### Der Bund wird geschlossen (Teil 13)
 
 Schritte 78 bis 80. Weitere Regeln für ein gerechtes Zusammenleben, dann sagt das Volk Ja zum Bund mit Gott, und Mose steigt auf den Berg.
 
@@ -220,7 +220,7 @@ Schritte 78 bis 80. Weitere Regeln für ein gerechtes Zusammenleben, dann sagt d
 - 79: 2. Mose 23
 - 80: 2. Mose 24
 
-### 14. Ein Zelt für Gott
+### Ein Zelt für Gott (Teil 14)
 
 Schritte 81 bis 87. Gott gibt genaue Anweisungen für ein Zelt, in dem er mitten unter seinem Volk wohnen will, und für die Priester, die dort dienen.
 
@@ -232,7 +232,7 @@ Schritte 81 bis 87. Gott gibt genaue Anweisungen für ein Zelt, in dem er mitten
 - 86: 2. Mose 30
 - 87: 2. Mose 31
 
-### 15. Das goldene Kalb
+### Das goldene Kalb (Teil 15)
 
 Schritte 88 bis 90. Das Volk macht sich ein Götzenbild, Mose tritt für Israel ein, und Gott zeigt sich als gnädig und barmherzig und erneuert den Bund.
 
@@ -240,7 +240,7 @@ Schritte 88 bis 90. Das Volk macht sich ein Götzenbild, Mose tritt für Israel 
 - 89: 2. Mose 33
 - 90: 2. Mose 34
 
-### 16. Das Zelt wird gebaut
+### Das Zelt wird gebaut (Teil 16)
 
 Schritte 91 bis 96. Das Volk bringt Gaben, das Zelt Gottes wird gebaut und aufgerichtet, und die Herrlichkeit Gottes erfüllt es.
 
@@ -251,7 +251,7 @@ Schritte 91 bis 96. Das Volk bringt Gaben, das Zelt Gottes wird gebaut und aufge
 - 95: 2. Mose 39
 - 96: 2. Mose 40
 
-### 17. Opfer
+### Opfer (Teil 17)
 
 Schritte 97 bis 103. Fünf Arten von Opfern zeigen, wie ein Mensch mit Dank und mit Schuld zu Gott kommen kann.
 
@@ -265,7 +265,7 @@ Schritte 97 bis 103. Fünf Arten von Opfern zeigen, wie ein Mensch mit Dank und 
 
 Video: [BibleProject: Levitikus (3. Mose)](https://youtu.be/U9GFT-MO6WY), [BibleProject: Opfer und Sühne](https://youtu.be/Gzj-vqrzJog), [BibleProject: Heiligkeit](https://youtu.be/IZO-B2s8Xgc)
 
-### 18. Die Priester beginnen
+### Die Priester beginnen (Teil 18)
 
 Schritte 104 bis 106. Aaron und seine Söhne werden eingesetzt, Feuer von Gott nimmt das erste Opfer an, und zwei Söhne Aarons sterben, weil sie sich nicht an Gottes Anweisung halten.
 
@@ -273,7 +273,7 @@ Schritte 104 bis 106. Aaron und seine Söhne werden eingesetzt, Feuer von Gott n
 - 105: 3. Mose 9
 - 106: 3. Mose 10
 
-### 19. Rein und unrein
+### Rein und unrein (Teil 19)
 
 Schritte 107 bis 111. Regeln zu Speisen, Geburt, Hautkrankheiten und Körperflüssigkeiten zeigen, dass rein sein muss, wer Gott nahe sein will.
 
@@ -283,7 +283,7 @@ Schritte 107 bis 111. Regeln zu Speisen, Geburt, Hautkrankheiten und Körperflü
 - 110: 3. Mose 14
 - 111: 3. Mose 15
 
-### 20. Versöhnungstag und heiliges Leben
+### Versöhnungstag und heiliges Leben (Teil 20)
 
 Schritte 112 bis 116. Einmal im Jahr wird die Schuld des Volkes vor Gott weggenommen (Versöhnungstag). Dann folgen Gebote für ein Leben, das zu Gott gehört, darunter das Gebot der Nächstenliebe (3. Mose 19,18).
 
@@ -293,7 +293,7 @@ Schritte 112 bis 116. Einmal im Jahr wird die Schuld des Volkes vor Gott weggeno
 - 115: 3. Mose 19
 - 116: 3. Mose 20
 
-### 21. Feste und Jubeljahr
+### Feste und Jubeljahr (Teil 21)
 
 Schritte 117 bis 123. Regeln für die Priester, die Feste Israels, das Sabbatjahr (jedes siebte Jahr ruht das Land) und das Jubeljahr, in dem verlorenes Land zurückkehrt, dazu Segen und Fluch.
 
@@ -305,7 +305,7 @@ Schritte 117 bis 123. Regeln für die Priester, die Feste Israels, das Sabbatjah
 - 122: 3. Mose 26
 - 123: 3. Mose 27
 
-### 22. Das Lager wird geordnet
+### Das Lager wird geordnet (Teil 22)
 
 Schritte 124 bis 129. Das Volk wird gezählt, Gott ordnet das Lager rund um sein Zelt, die Leviten, der Stamm, der beim Zelt Gottes dient, bekommen ihre Aufgaben, und Aaron soll das Volk segnen.
 
@@ -318,7 +318,7 @@ Schritte 124 bis 129. Das Volk wird gezählt, Gott ordnet das Lager rund um sein
 
 Video: [BibleProject: Numeri (4. Mose)](https://youtu.be/J6OhuhdD4vU)
 
-### 23. Aufbruch vom Sinai
+### Aufbruch vom Sinai (Teil 23)
 
 Schritte 130 bis 133. Die Stammesfürsten bringen Gaben, die Leviten werden für ihren Dienst eingesetzt, Israel feiert das Passa, und eine Wolke, das Zeichen von Gottes Gegenwart, führt das Volk weiter.
 
@@ -327,7 +327,7 @@ Schritte 130 bis 133. Die Stammesfürsten bringen Gaben, die Leviten werden für
 - 132: 4. Mose 9
 - 133: 4. Mose 10
 
-### 24. Murren und Unglaube
+### Murren und Unglaube (Teil 24)
 
 Schritte 134 bis 140. Das Volk klagt, und Mirjam und Aaron lehnen sich gegen Mose auf. Das Volk glaubt den verzagten Kundschaftern statt Gott und muss darum vierzig Jahre in der Wüste bleiben. Danach rebelliert Korach.
 
@@ -339,7 +339,7 @@ Schritte 134 bis 140. Das Volk klagt, und Mirjam und Aaron lehnen sich gegen Mos
 - 139: 4. Mose 16
 - 140: 4. Mose 17
 
-### 25. Wasser, Schlange und Bileam
+### Wasser, Schlange und Bileam (Teil 25)
 
 Schritte 141 bis 147. Mose schlägt den Felsen, die bronzene Schlange rettet die Gebissenen, und der Seher Bileam soll Israel verfluchen und muss es segnen.
 
@@ -351,7 +351,7 @@ Schritte 141 bis 147. Mose schlägt den Felsen, die bronzene Schlange rettet die
 - 146: 4. Mose 23
 - 147: 4. Mose 24
 
-### 26. Eine neue Generation
+### Eine neue Generation (Teil 26)
 
 Schritte 148 bis 154. Israel fällt bei Baal-Peor in Götzendienst, das Volk wird neu gezählt, Josua wird Nachfolger des Mose, dazu Regeln für Opfer und Gelübde.
 
@@ -363,7 +363,7 @@ Schritte 148 bis 154. Israel fällt bei Baal-Peor in Götzendienst, das Volk wir
 - 153: 4. Mose 30
 - 154: 4. Mose 31
 
-### 27. Kurz vor dem Ziel
+### Kurz vor dem Ziel (Teil 27)
 
 Schritte 155 bis 159. Zweieinhalb Stämme siedeln östlich des Jordan, Mose blickt auf die Stationen der Wanderung zurück, und die Grenzen des Landes werden festgelegt, dazu Städte, in die fliehen kann, wer jemanden aus Versehen getötet hat.
 
@@ -373,7 +373,7 @@ Schritte 155 bis 159. Zweieinhalb Stämme siedeln östlich des Jordan, Mose blic
 - 158: 4. Mose 35
 - 159: 4. Mose 36
 
-### 28. Mose erinnert
+### Mose erinnert (Teil 28)
 
 Schritte 160 bis 164. Am Jordan erzählt Mose der neuen Generation den Weg durch die Wüste nach und wiederholt die Zehn Gebote.
 
@@ -385,7 +385,7 @@ Schritte 160 bis 164. Am Jordan erzählt Mose der neuen Generation den Weg durch
 
 Video: [BibleProject: Deuteronomium (5. Mose)](https://youtu.be/Eu7K6Vd7jLM)
 
-### 29. Gott allein lieben
+### Gott allein lieben (Teil 29)
 
 Schritte 165 bis 170. Gott allein ist Herr, ihn soll man von ganzem Herzen lieben (5. Mose 6,4-5), und das Volk soll nie vergessen, wer es befreit hat.
 
@@ -396,7 +396,7 @@ Schritte 165 bis 170. Gott allein ist Herr, ihn soll man von ganzem Herzen liebe
 - 169: 5. Mose 10
 - 170: 5. Mose 11
 
-### 30. Ein Volk nach Gottes Ordnung
+### Ein Volk nach Gottes Ordnung (Teil 30)
 
 Schritte 171 bis 177. Ein Ort für den Gottesdienst, Warnung vor falschen Propheten, Feste, Richter und König, und die Zusage eines Propheten wie Mose.
 
@@ -408,7 +408,7 @@ Schritte 171 bis 177. Ein Ort für den Gottesdienst, Warnung vor falschen Prophe
 - 176: 5. Mose 17
 - 177: 5. Mose 18
 
-### 31. Recht im Alltag
+### Recht im Alltag (Teil 31)
 
 Schritte 178 bis 184. Schutz für alle, die aus Versehen getötet haben, Regeln für Krieg und Familie, Schutz für Fremde, Witwen und Waisen und ehrliche Gewichte.
 
@@ -420,7 +420,7 @@ Schritte 178 bis 184. Schutz für alle, die aus Versehen getötet haben, Regeln 
 - 183: 5. Mose 24
 - 184: 5. Mose 25
 
-### 32. Das Leben wählen
+### Das Leben wählen (Teil 32)
 
 Schritte 185 bis 189. Erstlingsgaben, Segen und Fluch, und am Ende stellt Mose das Volk vor die Wahl zwischen Leben und Tod.
 
@@ -430,7 +430,7 @@ Schritte 185 bis 189. Erstlingsgaben, Segen und Fluch, und am Ende stellt Mose d
 - 188: 5. Mose 29
 - 189: 5. Mose 30
 
-### 33. Moses Abschied
+### Moses Abschied (Teil 33)
 
 Schritte 190 bis 194. Josua wird eingesetzt, Mose singt sein Lied, segnet die Stämme und stirbt auf dem Berg Nebo, dazu Psalm 90, ein Gebet des Mose, und Psalm 91.
 
@@ -441,9 +441,9 @@ Schritte 190 bis 194. Josua wird eingesetzt, Mose singt sein Lied, segnet die St
 - 194: Psalm 90-91
 
 
-## Im versprochenen Land (Josua, Richter, Rut)
+## Abschnitt 4: Im versprochenen Land (Josua, Richter, Rut)
 
-### 34. Einzug ins Land
+### Einzug ins Land (Teil 34)
 
 Schritte 195 bis 202. Josua soll mutig sein, Rahab versteckt die Kundschafter, Israel zieht durch den Jordan, Jericho fällt, und Achans Diebstahl kostet eine Niederlage bei Ai.
 
@@ -458,7 +458,7 @@ Schritte 195 bis 202. Josua soll mutig sein, Rahab versteckt die Kundschafter, I
 
 Video: [BibleProject: Josua](https://youtu.be/5EOv0AUXo1Q)
 
-### 35. Kämpfe und Kaleb
+### Kämpfe und Kaleb (Teil 35)
 
 Schritte 203 bis 208. Die Gibeoniter erschleichen sich einen Bund, Josua besiegt die Könige des Landes, die Verteilung beginnt, und der alte Kaleb erbittet sich Hebron.
 
@@ -469,7 +469,7 @@ Schritte 203 bis 208. Die Gibeoniter erschleichen sich einen Bund, Josua besiegt
 - 207: Josua 13
 - 208: Josua 14
 
-### 36. Das Land wird verteilt
+### Das Land wird verteilt (Teil 36)
 
 Schritte 209 bis 215. Jeder Stamm bekommt sein Gebiet, dazu Städte der Zuflucht und Wohnorte für die Leviten, und Gott hat alle seine Zusagen gehalten.
 
@@ -481,7 +481,7 @@ Schritte 209 bis 215. Jeder Stamm bekommt sein Gebiet, dazu Städte der Zuflucht
 - 214: Josua 20
 - 215: Josua 21
 
-### 37. Die Entscheidung
+### Die Entscheidung (Teil 37)
 
 Schritte 216 bis 218. Ein Altar am Jordan sorgt für Streit, Josua nimmt Abschied und ruft das Volk zur Entscheidung, wem es dienen will.
 
@@ -489,7 +489,7 @@ Schritte 216 bis 218. Ein Altar am Jordan sorgt für Streit, Josua nimmt Abschie
 - 217: Josua 23
 - 218: Josua 24
 
-### 38. Immer wieder abgefallen
+### Immer wieder abgefallen (Teil 38)
 
 Schritte 219 bis 224. Israel vertreibt die Völker nicht ganz, wendet sich immer wieder von Gott ab, und Gott schickt Retter wie Ehud, Debora und Gideon.
 
@@ -502,7 +502,7 @@ Schritte 219 bis 224. Israel vertreibt die Völker nicht ganz, wendet sich immer
 
 Video: [BibleProject: Richter](https://youtu.be/dclxjfBPgkc)
 
-### 39. Gideon, Abimelech, Jeftah
+### Gideon, Abimelech, Jeftah (Teil 39)
 
 Schritte 225 bis 230. Gideon siegt mit dreihundert Mann, sein Sohn Abimelech reißt die Macht an sich, und Jeftah legt ein voreiliges Gelübde ab.
 
@@ -513,7 +513,7 @@ Schritte 225 bis 230. Gideon siegt mit dreihundert Mann, sein Sohn Abimelech rei
 - 229: Richter 11
 - 230: Richter 12
 
-### 40. Simson
+### Simson (Teil 40)
 
 Schritte 231 bis 234. Ein Mann mit großer Kraft und schwachem Charakter, den Gott trotzdem gebraucht.
 
@@ -522,7 +522,7 @@ Schritte 231 bis 234. Ein Mann mit großer Kraft und schwachem Charakter, den Go
 - 233: Richter 15
 - 234: Richter 16
 
-### 41. Jeder tat, was er wollte
+### Jeder tat, was er wollte (Teil 41)
 
 Schritte 235 bis 239. Götzenbilder, ein wandernder Stamm und ein grausames Verbrechen führen zum Bürgerkrieg, denn es gab keinen König in Israel.
 
@@ -532,7 +532,7 @@ Schritte 235 bis 239. Götzenbilder, ein wandernder Stamm und ein grausames Verb
 - 238: Richter 20
 - 239: Richter 21
 
-### 42. Rut
+### Rut (Teil 42)
 
 Schritte 240 bis 243. Eine ausländische Witwe bleibt bei ihrer Schwiegermutter, findet bei Boas Schutz und wird die Urgroßmutter von König David.
 
@@ -544,9 +544,9 @@ Schritte 240 bis 243. Eine ausländische Witwe bleibt bei ihrer Schwiegermutter,
 Video: [BibleProject: Rut](https://youtu.be/IF1bCncMGfw)
 
 
-## Hiob
+## Abschnitt 5: Hiob
 
-### 43. Hiob verliert alles
+### Hiob verliert alles (Teil 43)
 
 Schritte 244 bis 246. Ein Mann, der Gott ehrt, verliert Besitz, Kinder und Gesundheit, und nach sieben Tagen Schweigen verflucht er den Tag seiner Geburt.
 
@@ -556,7 +556,7 @@ Schritte 244 bis 246. Ein Mann, der Gott ehrt, verliert Besitz, Kinder und Gesun
 
 Video: [BibleProject: Hiob](https://youtu.be/Fb0FBrvO7zQ)
 
-### 44. Die Freunde reden
+### Die Freunde reden (Teil 44)
 
 Schritte 247 bis 253. Elifas und Bildad erklären Hiobs Leid als Strafe, Hiob widerspricht und klagt Gott sein Elend.
 
@@ -568,7 +568,7 @@ Schritte 247 bis 253. Elifas und Bildad erklären Hiobs Leid als Strafe, Hiob wi
 - 252: Hiob 9
 - 253: Hiob 10
 
-### 45. Hiob sucht einen Fürsprecher
+### Hiob sucht einen Fürsprecher (Teil 45)
 
 Schritte 254 bis 260. Zofar redet, der Streit geht in eine zweite Runde, und Hiob sucht einen, der bei Gott für ihn eintritt.
 
@@ -580,7 +580,7 @@ Schritte 254 bis 260. Zofar redet, der Streit geht in eine zweite Runde, und Hio
 - 259: Hiob 16
 - 260: Hiob 17
 
-### 46. Hoffnung mitten im Streit
+### Hoffnung mitten im Streit (Teil 46)
 
 Schritte 261 bis 267. Bildad und Zofar bleiben bei ihrem Urteil, Hiob hofft auf einen, der für ihn eintritt, seinen Erlöser, und fragt, warum es den Gottlosen oft gut geht.
 
@@ -592,7 +592,7 @@ Schritte 261 bis 267. Bildad und Zofar bleiben bei ihrem Urteil, Hiob hofft auf 
 - 266: Hiob 23
 - 267: Hiob 24
 
-### 47. Wo ist Weisheit zu finden?
+### Wo ist Weisheit zu finden? (Teil 47)
 
 Schritte 268 bis 274. Die Freunde verstummen, Hiob preist die Weisheit Gottes, blickt auf sein früheres Leben zurück und beteuert seine Unschuld.
 
@@ -604,7 +604,7 @@ Schritte 268 bis 274. Die Freunde verstummen, Hiob preist die Weisheit Gottes, b
 - 273: Hiob 30
 - 274: Hiob 31
 
-### 48. Elihu redet
+### Elihu redet (Teil 48)
 
 Schritte 275 bis 280. Ein junger Mann meldet sich zu Wort und sagt, Gott rede auch durch Leid und sei größer als der Mensch.
 
@@ -615,7 +615,7 @@ Schritte 275 bis 280. Ein junger Mann meldet sich zu Wort und sagt, Gott rede au
 - 279: Hiob 36
 - 280: Hiob 37
 
-### 49. Gott antwortet
+### Gott antwortet (Teil 49)
 
 Schritte 281 bis 285. Gott spricht aus dem Sturm, zeigt Hiob die Wunder der Schöpfung, Hiob beugt sich, und Gott stellt ihn wieder her.
 
@@ -626,9 +626,9 @@ Schritte 281 bis 285. Gott spricht aus dem Sturm, zeigt Hiob die Wunder der Sch�
 - 285: Hiob 42
 
 
-## Saul und David
+## Abschnitt 6: Saul und David
 
-### 50. Samuel
+### Samuel (Teil 50)
 
 Schritte 286 bis 292. Hanna bittet um einen Sohn, Samuel hört Gottes Ruf, und die Bundeslade, die heilige Truhe mit den Gesetzestafeln, geht an die Philister verloren und kehrt zurück.
 
@@ -642,7 +642,7 @@ Schritte 286 bis 292. Hanna bittet um einen Sohn, Samuel hört Gottes Ruf, und d
 
 Video: [BibleProject: 1. Samuel](https://youtu.be/UYn3koCqqUc)
 
-### 51. Israel will einen König
+### Israel will einen König (Teil 51)
 
 Schritte 293 bis 300. Das Volk verlangt einen König wie die anderen Völker, Saul wird mit Öl zum König eingesetzt, beginnt stark und verliert durch Ungehorsam Gottes Zustimmung.
 
@@ -655,7 +655,7 @@ Schritte 293 bis 300. Das Volk verlangt einen König wie die anderen Völker, Sa
 - 299: 1. Samuel 14
 - 300: 1. Samuel 15
 
-### 52. David und Goliat
+### David und Goliat (Teil 52)
 
 Schritte 301 bis 308. Samuel setzt den jungen David mit Öl zum künftigen König ein, David besiegt Goliat, Saul wird eifersüchtig, und Jonatan wird Davids Freund, dazu passende Psalmen.
 
@@ -670,7 +670,7 @@ Schritte 301 bis 308. Samuel setzt den jungen David mit Öl zum künftigen Köni
 
 Video: [BibleProject: Psalmen](https://youtu.be/vVW2IthkhgM)
 
-### 53. Auf der Flucht
+### Auf der Flucht (Teil 53)
 
 Schritte 309 bis 315. David flieht vor Saul, sucht Zuflucht bei Priestern und sogar bei Feinden und betet in seiner Not.
 
@@ -682,7 +682,7 @@ Schritte 309 bis 315. David flieht vor Saul, sucht Zuflucht bei Priestern und so
 - 314: 1. Samuel 23
 - 315: Psalm 16; Psalm 54
 
-### 54. David verschont Saul
+### David verschont Saul (Teil 54)
 
 Schritte 316 bis 322. Zweimal hat David Saul in der Hand und tötet ihn nicht, und Abigajil hält ihn von der Rache ab.
 
@@ -694,7 +694,7 @@ Schritte 316 bis 322. Zweimal hat David Saul in der Hand und tötet ihn nicht, u
 - 321: 1. Samuel 26
 - 322: 1. Samuel 27
 
-### 55. Sauls Ende
+### Sauls Ende (Teil 55)
 
 Schritte 323 bis 328. Saul sucht Rat bei einer Totenbeschwörerin, David siegt über die Amalekiter, und Saul fällt im Kampf gegen die Philister.
 
@@ -705,7 +705,7 @@ Schritte 323 bis 328. Saul sucht Rat bei einer Totenbeschwörerin, David siegt �
 - 327: 1. Chronik 10
 - 328: Psalm 25; Psalm 18
 
-### 56. Psalmen aus Davids Zeit (1)
+### Psalmen aus Davids Zeit (1) (Teil 56)
 
 Schritte 329 bis 332. Gebete voller Klage, Vertrauen und Lob, die meisten von David.
 
@@ -714,7 +714,7 @@ Schritte 329 bis 332. Gebete voller Klage, Vertrauen und Lob, die meisten von Da
 - 331: Psalm 22; Psalm 26-27
 - 332: Psalm 28-29; Psalm 31 und 33
 
-### 57. Psalmen aus Davids Zeit (2)
+### Psalmen aus Davids Zeit (2) (Teil 57)
 
 Schritte 333 bis 336. Hilferufe in Bedrängnis und Lob für Gottes Treue, die meisten von David.
 
@@ -723,7 +723,7 @@ Schritte 333 bis 336. Hilferufe in Bedrängnis und Lob für Gottes Treue, die me
 - 335: Psalm 66-67; Psalm 69-70
 - 336: Psalm 86 und 140
 
-### 58. David wird König
+### David wird König (Teil 58)
 
 Schritte 337 bis 343. David trauert um Saul und Jonatan, wird König über Juda, dann über ganz Israel, und erobert Jerusalem.
 
@@ -737,7 +737,7 @@ Schritte 337 bis 343. David trauert um Saul und Jonatan, wird König über Juda,
 
 Video: [BibleProject: 2. Samuel](https://youtu.be/jdGu7U0pcVY)
 
-### 59. Die Bundeslade kommt nach Jerusalem
+### Die Bundeslade kommt nach Jerusalem (Teil 59)
 
 Schritte 344 bis 350. David holt die Lade mit Tanz und Jubel nach Jerusalem, dazu Loblieder, und er ordnet die Leviten für den Dienst.
 
@@ -751,7 +751,7 @@ Schritte 344 bis 350. David holt die Lade mit Tanz und Jubel nach Jerusalem, daz
 
 Video: [BibleProject: Chroniken](https://youtu.be/MyhFWaS9LJs)
 
-### 60. Die Sänger am Heiligtum
+### Die Sänger am Heiligtum (Teil 60)
 
 Schritte 351 bis 357. David ordnet Sänger, Torhüter und Beamte, dazu Psalmen der Söhne Korach und Asafs.
 
@@ -763,7 +763,7 @@ Schritte 351 bis 357. David ordnet Sänger, Torhüter und Beamte, dazu Psalmen d
 - 356: 1. Chronik 26
 - 357: 1. Chronik 27
 
-### 61. Gottes Zusage an David
+### Gottes Zusage an David (Teil 61)
 
 Schritte 358 bis 364. David will Gott ein Haus bauen, doch Gott verspricht ihm ein Königshaus, das für immer bestehen soll, dazu Davids Siege und Lobpsalmen.
 
@@ -775,7 +775,7 @@ Schritte 358 bis 364. David will Gott ein Haus bauen, doch Gott verspricht ihm e
 - 363: 2. Samuel 8
 - 364: 1. Chronik 18
 
-### 62. David und Batseba
+### David und Batseba (Teil 62)
 
 Schritte 365 bis 371. David zeigt Mefi-Boschet Güte, dann nimmt er Batseba und lässt ihren Mann töten, und der Prophet Natan stellt ihn zur Rede.
 
@@ -787,7 +787,7 @@ Schritte 365 bis 371. David zeigt Mefi-Boschet Güte, dann nimmt er Batseba und 
 - 370: 2. Samuel 11
 - 371: 2. Samuel 12
 
-### 63. Schuld bekennen und Aufstand
+### Schuld bekennen und Aufstand (Teil 63)
 
 Schritte 372 bis 378. David bekennt seine Schuld in Psalm 51, Unheil zieht in seine Familie ein, und sein Sohn Absalom vertreibt ihn vom Thron.
 
@@ -799,7 +799,7 @@ Schritte 372 bis 378. David bekennt seine Schuld in Psalm 51, Unheil zieht in se
 - 377: 2. Samuel 16
 - 378: Psalm 3; Psalm 4 und 55
 
-### 64. Absaloms Ende
+### Absaloms Ende (Teil 64)
 
 Schritte 379 bis 385. Absalom fällt, David weint um ihn, kehrt nach Jerusalem zurück und dankt Gott mit einem großen Lied.
 
@@ -811,7 +811,7 @@ Schritte 379 bis 385. Absalom fällt, David weint um ihn, kehrt nach Jerusalem z
 - 384: 2. Samuel 21
 - 385: 2. Samuel 22
 
-### 65. Davids letzte Worte
+### Davids letzte Worte (Teil 65)
 
 Schritte 386 bis 390. Davids letzte Worte, der Hirtenpsalm 23, die Volkszählung bringt Unheil, und David bereitet den Bau des Tempels vor.
 
@@ -821,7 +821,7 @@ Schritte 386 bis 390. Davids letzte Worte, der Hirtenpsalm 23, die Volkszählung
 - 389: 1. Chronik 21
 - 390: 1. Chronik 22
 
-### 66. Salomo folgt David
+### Salomo folgt David (Teil 66)
 
 Schritte 391 bis 395. Psalmen, die meisten von David, sein Gebet zum Abschied und ein Gebet für den neuen König Salomo.
 
@@ -832,9 +832,9 @@ Schritte 391 bis 395. Psalmen, die meisten von David, sein Gebet zum Abschied un
 - 395: Psalm 72
 
 
-## Salomo und die Weisheit
+## Abschnitt 7: Salomo und die Weisheit
 
-### 67. Salomo bittet um Weisheit
+### Salomo bittet um Weisheit (Teil 67)
 
 Schritte 396 bis 401. Salomo wird König, sichert seine Herrschaft, bittet Gott um Weisheit statt um Reichtum und bereitet den Bau des Tempels vor.
 
@@ -847,7 +847,7 @@ Schritte 396 bis 401. Salomo wird König, sichert seine Herrschaft, bittet Gott 
 
 Video: [BibleProject: Könige](https://youtu.be/n7TrGldij-o)
 
-### 68. Der Tempel wird gebaut
+### Der Tempel wird gebaut (Teil 68)
 
 Schritte 402 bis 406. Salomo baut den Tempel und seinen Palast und weiht das Haus Gottes mit einem großen Gebet.
 
@@ -857,7 +857,7 @@ Schritte 402 bis 406. Salomo baut den Tempel und seinen Palast und weiht das Hau
 - 405: 1. Könige 7
 - 406: 1. Könige 8
 
-### 69. Gottes Herrlichkeit im Tempel
+### Gottes Herrlichkeit im Tempel (Teil 69)
 
 Schritte 407 bis 413. Die Chronik erzählt den Tempelbau noch einmal, Gottes Herrlichkeit erfüllt das Haus, und die Königin von Saba staunt über Salomos Weisheit.
 
@@ -869,7 +869,7 @@ Schritte 407 bis 413. Die Chronik erzählt den Tempelbau noch einmal, Gottes Her
 - 412: 1. Könige 9
 - 413: 1. Könige 10
 
-### 70. Salomos Herz wendet sich ab
+### Salomos Herz wendet sich ab (Teil 70)
 
 Schritte 414 bis 416. Salomos Reichtum wächst, doch im Alter verleiten ihn seine vielen Frauen zum Götzendienst.
 
@@ -877,7 +877,7 @@ Schritte 414 bis 416. Salomos Reichtum wächst, doch im Alter verleiten ihn sein
 - 415: 2. Chronik 9
 - 416: 1. Könige 11
 
-### 71. Das Hohelied
+### Das Hohelied (Teil 71)
 
 Schritte 417 bis 424. Ein Liebeslied zwischen Braut und Bräutigam über die Schönheit und Kraft der Liebe.
 
@@ -892,7 +892,7 @@ Schritte 417 bis 424. Ein Liebeslied zwischen Braut und Bräutigam über die Sch
 
 Video: [BibleProject: Hoheslied](https://youtu.be/cu4pQ-G3nV8)
 
-### 72. Die Weisheit ruft
+### Die Weisheit ruft (Teil 72)
 
 Schritte 425 bis 429. Ein Vater lehrt seinen Sohn, dass Ehrfurcht vor Gott der Anfang aller Erkenntnis ist.
 
@@ -904,7 +904,7 @@ Schritte 425 bis 429. Ein Vater lehrt seinen Sohn, dass Ehrfurcht vor Gott der A
 
 Video: [BibleProject: Sprüche](https://youtu.be/CZtN1nW_18k), [Weisheit: Das Buch der Sprüche](https://youtu.be/BcktzKf8bHk)
 
-### 73. Zwei Wege
+### Zwei Wege (Teil 73)
 
 Schritte 430 bis 433. Warnungen vor Faulheit und Ehebruch, und die Weisheit lädt an ihren Tisch, während die Torheit lockt.
 
@@ -913,7 +913,7 @@ Schritte 430 bis 433. Warnungen vor Faulheit und Ehebruch, und die Weisheit läd
 - 432: Sprüche 8
 - 433: Sprüche 9
 
-### 74. Sprüche Salomos (1)
+### Sprüche Salomos (1) (Teil 74)
 
 Schritte 434 bis 440. Kurze Sprüche über Reden und Schweigen, Fleiß und Faulheit, Gerechte und Gottlose.
 
@@ -925,7 +925,7 @@ Schritte 434 bis 440. Kurze Sprüche über Reden und Schweigen, Fleiß und Faulh
 - 439: Sprüche 15
 - 440: Sprüche 16
 
-### 75. Sprüche Salomos (2)
+### Sprüche Salomos (2) (Teil 75)
 
 Schritte 441 bis 447. Sprüche über Freundschaft, Familie, Geld und Selbstbeherrschung.
 
@@ -937,7 +937,7 @@ Schritte 441 bis 447. Sprüche über Freundschaft, Familie, Geld und Selbstbeher
 - 446: Sprüche 22
 - 447: Sprüche 23
 
-### 76. Sprüche Salomos (3), Agur und Lemuel
+### Sprüche Salomos (3), Agur und Lemuel (Teil 76)
 
 Schritte 448 bis 455. Weitere Sprüche, die Worte Agurs und Lemuels und am Ende das Lob der tüchtigen Frau.
 
@@ -950,7 +950,7 @@ Schritte 448 bis 455. Weitere Sprüche, die Worte Agurs und Lemuels und am Ende 
 - 454: Sprüche 30
 - 455: Sprüche 31
 
-### 77. Alles ist vergänglich
+### Alles ist vergänglich (Teil 77)
 
 Schritte 456 bis 461. Der Prediger sucht Sinn in Arbeit, Genuss, Wissen und Besitz und findet, dass für alles eine Zeit ist, doch nichts davon hält.
 
@@ -963,7 +963,7 @@ Schritte 456 bis 461. Der Prediger sucht Sinn in Arbeit, Genuss, Wissen und Besi
 
 Video: [BibleProject: Prediger](https://youtu.be/QkhASgIUrkM), [Weisheit: Das Buch Prediger](https://youtu.be/5cnljjNT5oA)
 
-### 78. Ehrfurcht vor Gott
+### Ehrfurcht vor Gott (Teil 78)
 
 Schritte 462 bis 467. Lebensweisheit für eine unberechenbare Welt, und am Ende der Rat, früh an den Schöpfer zu denken und Ehrfurcht vor Gott zu haben.
 
@@ -975,9 +975,9 @@ Schritte 462 bis 467. Lebensweisheit für eine unberechenbare Welt, und am Ende 
 - 467: Prediger 12
 
 
-## Das geteilte Reich und seine Propheten
+## Abschnitt 8: Das geteilte Reich und seine Propheten
 
-### 79. Das Reich zerbricht
+### Das Reich zerbricht (Teil 79)
 
 Schritte 468 bis 472. Rehabeam hört auf die falschen Berater, zehn Stämme fallen ab, und Jerobeam stellt goldene Kälber auf.
 
@@ -987,7 +987,7 @@ Schritte 468 bis 472. Rehabeam hört auf die falschen Berater, zehn Stämme fall
 - 471: 2. Chronik 11
 - 472: 2. Chronik 12
 
-### 80. Könige in Juda und Israel
+### Könige in Juda und Israel (Teil 80)
 
 Schritte 473 bis 478. Gute und schlechte Könige wechseln sich ab, und Asa sucht Gott, vertraut am Ende aber doch auf Menschen.
 
@@ -998,7 +998,7 @@ Schritte 473 bis 478. Gute und schlechte Könige wechseln sich ab, und Asa sucht
 - 477: 2. Chronik 15
 - 478: 2. Chronik 16
 
-### 81. Elia
+### Elia (Teil 81)
 
 Schritte 479 bis 485. Elia kündigt eine Dürre an, wird von Raben versorgt, besiegt die Baalspropheten am Karmel und begegnet Gott in der Stille.
 
@@ -1010,7 +1010,7 @@ Schritte 479 bis 485. Elia kündigt eine Dürre an, wird von Raben versorgt, bes
 - 484: 1. Könige 21
 - 485: 1. Könige 22
 
-### 82. Joschafat
+### Joschafat (Teil 82)
 
 Schritte 486 bis 490. König Joschafat lässt das Volk Gottes Gesetz lehren und siegt mit Lobgesang, und Elia kündigt dem kranken König Ahasja den Tod an.
 
@@ -1020,7 +1020,7 @@ Schritte 486 bis 490. König Joschafat lässt das Volk Gottes Gesetz lehren und 
 - 489: 2. Chronik 20
 - 490: 2. Könige 1
 
-### 83. Elisa
+### Elisa (Teil 83)
 
 Schritte 491 bis 497. Elia wird in den Himmel aufgenommen, Elisa folgt ihm nach, vermehrt Öl, weckt ein Kind auf und heilt den Syrer Naaman.
 
@@ -1032,7 +1032,7 @@ Schritte 491 bis 497. Elia wird in den Himmel aufgenommen, Elisa folgt ihm nach,
 - 496: 2. Könige 7
 - 497: 2. Könige 8
 
-### 84. Jehu, Atalja und Joasch
+### Jehu, Atalja und Joasch (Teil 84)
 
 Schritte 498 bis 504. Jehu rottet Ahabs Haus aus, Atalja will in Juda die Königsfamilie auslöschen, und der kleine Joasch wird gerettet und König.
 
@@ -1044,7 +1044,7 @@ Schritte 498 bis 504. Jehu rottet Ahabs Haus aus, Atalja will in Juda die König
 - 503: 2. Könige 12
 - 504: 2. Chronik 23
 
-### 85. Joasch, Amazja und Elisas Tod
+### Joasch, Amazja und Elisas Tod (Teil 85)
 
 Schritte 505 bis 508. Joasch wendet sich von Gott ab, Elisa stirbt, und Amazja wird hochmütig.
 
@@ -1053,7 +1053,7 @@ Schritte 505 bis 508. Joasch wendet sich von Gott ab, Elisa stirbt, und Amazja w
 - 507: 2. Könige 14
 - 508: 2. Chronik 25
 
-### 86. Jona
+### Jona (Teil 86)
 
 Schritte 509 bis 511. Ein Prophet flieht vor Gottes Auftrag, wird von einem Fisch verschluckt und ärgert sich, als Gott der Stadt Ninive vergibt.
 
@@ -1063,7 +1063,7 @@ Schritte 509 bis 511. Ein Prophet flieht vor Gottes Auftrag, wird von einem Fisc
 
 Video: [BibleProject: Jona](https://youtu.be/FbhXx3EAvGI)
 
-### 87. Amos: Gerechtigkeit
+### Amos: Gerechtigkeit (Teil 87)
 
 Schritte 512 bis 516. Ein Viehhirte kündigt Gericht an über Völker, die grausam sind, und über Israel, das die Armen unterdrückt.
 
@@ -1075,7 +1075,7 @@ Schritte 512 bis 516. Ein Viehhirte kündigt Gericht an über Völker, die graus
 
 Video: [BibleProject: Amos](https://youtu.be/rn3PpM2pnog)
 
-### 88. Amos: Bilder und Hoffnung
+### Amos: Bilder und Hoffnung (Teil 88)
 
 Schritte 517 bis 520. Amos sieht in Bildern das kommende Gericht, doch am Ende verspricht Gott, das zerfallene Königshaus Davids wieder aufzurichten.
 
@@ -1084,7 +1084,7 @@ Schritte 517 bis 520. Amos sieht in Bildern das kommende Gericht, doch am Ende v
 - 519: Amos 8
 - 520: Amos 9
 
-### 89. Hosea: treue Liebe
+### Hosea: treue Liebe (Teil 89)
 
 Schritte 521 bis 527. Hosea heiratet eine untreue Frau und holt sie zurück, ein Bild für Gottes Liebe zu seinem untreuen Volk.
 
@@ -1098,7 +1098,7 @@ Schritte 521 bis 527. Hosea heiratet eine untreue Frau und holt sie zurück, ein
 
 Video: [BibleProject: Hosea](https://youtu.be/hQ2YgxGCKoA)
 
-### 90. Hosea: Kehrt um
+### Hosea: Kehrt um (Teil 90)
 
 Schritte 528 bis 534. Israels Götzendienst bringt Unheil, doch Gott kann sein Volk nicht aufgeben und lädt es zur Umkehr ein.
 
@@ -1110,7 +1110,7 @@ Schritte 528 bis 534. Israels Götzendienst bringt Unheil, doch Gott kann sein V
 - 533: Hosea 13
 - 534: Hosea 14
 
-### 91. Das Nordreich fällt
+### Das Nordreich fällt (Teil 91)
 
 Schritte 535 bis 541. In Juda regieren Usija, Jotam und Ahas, im Norden folgt Umsturz auf Umsturz, bis Assyrien Samaria erobert und Israel wegführt.
 
@@ -1122,7 +1122,7 @@ Schritte 535 bis 541. In Juda regieren Usija, Jotam und Ahas, im Norden folgt Um
 - 540: 2. Könige 17
 - 541: Psalm 80
 
-### 92. Micha
+### Micha (Teil 92)
 
 Schritte 542 bis 548. Micha klagt die Mächtigen an, kündigt einen Herrscher aus Bethlehem an und sagt, was Gott wirklich vom Menschen will.
 
@@ -1136,7 +1136,7 @@ Schritte 542 bis 548. Micha klagt die Mächtigen an, kündigt einen Herrscher au
 
 Video: [BibleProject: Micha](https://youtu.be/M4xHtQQ4vik)
 
-### 93. Jesaja wird gerufen
+### Jesaja wird gerufen (Teil 93)
 
 Schritte 549 bis 555. Gott klagt sein Volk an, verheißt Frieden für alle Völker, und Jesaja sieht Gott im Tempel und kündigt ein Kind an, das Immanuel heißt, Gott mit uns.
 
@@ -1150,7 +1150,7 @@ Schritte 549 bis 555. Gott klagt sein Volk an, verheißt Frieden für alle Völk
 
 Video: [BibleProject: Jesaja Kap. 1-39](https://youtu.be/PVkASigeqD0)
 
-### 94. Der kommende König
+### Der kommende König (Teil 94)
 
 Schritte 556 bis 560. Ein Kind wird angekündigt, das Friedefürst heißt, ein Nachkomme Davids, und das Volk singt Gott ein Danklied.
 
@@ -1160,7 +1160,7 @@ Schritte 556 bis 560. Ein Kind wird angekündigt, das Friedefürst heißt, ein N
 - 559: Jesaja 11
 - 560: Jesaja 12
 
-### 95. Worte über die Völker (1)
+### Worte über die Völker (1) (Teil 95)
 
 Schritte 561 bis 567. Babylon, Assyrien, Moab, Damaskus, Kusch und Ägypten: Gott ist Herr über alle Völker.
 
@@ -1172,7 +1172,7 @@ Schritte 561 bis 567. Babylon, Assyrien, Moab, Damaskus, Kusch und Ägypten: Got
 - 566: Jesaja 18
 - 567: Jesaja 19
 
-### 96. Worte über die Völker (2)
+### Worte über die Völker (2) (Teil 96)
 
 Schritte 568 bis 574. Weitere Gerichtsworte, dann der Blick auf das Ende, wenn Gott alle Völker zum Festmahl lädt und den Tod verschlingt.
 
@@ -1184,7 +1184,7 @@ Schritte 568 bis 574. Weitere Gerichtsworte, dann der Blick auf das Ende, wenn G
 - 573: Jesaja 25
 - 574: Jesaja 26
 
-### 97. Vertrauen auf wen?
+### Vertrauen auf wen? (Teil 97)
 
 Schritte 575 bis 581. Juda sucht Hilfe bei Ägypten statt bei Gott, doch Gott kündigt einen gerechten König und Rettung an.
 
@@ -1196,7 +1196,7 @@ Schritte 575 bis 581. Juda sucht Hilfe bei Ägypten statt bei Gott, doch Gott k�
 - 580: Jesaja 32
 - 581: Jesaja 33
 
-### 98. Hiskia in Bedrängnis
+### Hiskia in Bedrängnis (Teil 98)
 
 Schritte 582 bis 587. Gericht über Edom und Freude über die blühende Wüste, dann belagert Assyrien Jerusalem, Hiskia betet und wird gerettet, wird krank und geheilt.
 
@@ -1207,7 +1207,7 @@ Schritte 582 bis 587. Gericht über Edom und Freude über die blühende Wüste, 
 - 586: Jesaja 38
 - 587: Jesaja 39
 
-### 99. Hiskia
+### Hiskia (Teil 99)
 
 Schritte 588 bis 595. Die Königsbücher und die Chronik erzählen Hiskias Glauben, seine Erneuerung des Gottesdienstes und das Passafest, dazu Psalmen über Gott als Zuflucht.
 
@@ -1220,7 +1220,7 @@ Schritte 588 bis 595. Die Königsbücher und die Chronik erzählen Hiskias Glaub
 - 594: 2. Chronik 32
 - 595: Psalm 46-48; Psalm 75-76
 
-### 100. Trost für Gottes Volk
+### Trost für Gottes Volk (Teil 100)
 
 Schritte 596 bis 602. Gott tröstet sein Volk, er ist der Schöpfer, neben dem es keinen Gott gibt, und er beruft Kyrus, um die Gefangenen heimzuführen.
 
@@ -1234,7 +1234,7 @@ Schritte 596 bis 602. Gott tröstet sein Volk, er ist der Schöpfer, neben dem e
 
 Video: [BibleProject: Jesaja Kap. 40-66](https://youtu.be/dgJvi3DopD0)
 
-### 101. Der Knecht Gottes
+### Der Knecht Gottes (Teil 101)
 
 Schritte 603 bis 609. Babylon fällt, und Gott stellt seinen Knecht vor, der für die Schuld vieler leidet.
 
@@ -1246,7 +1246,7 @@ Schritte 603 bis 609. Babylon fällt, und Gott stellt seinen Knecht vor, der fü
 - 608: Jesaja 52
 - 609: Jesaja 53
 
-### 102. Einladung an alle
+### Einladung an alle (Teil 102)
 
 Schritte 610 bis 616. Gott lädt alle Durstigen ein, verspricht Fremden einen Platz in seinem Haus und Jerusalem ein neues Licht.
 
@@ -1258,7 +1258,7 @@ Schritte 610 bis 616. Gott lädt alle Durstigen ein, verspricht Fremden einen Pl
 - 615: Jesaja 59
 - 616: Jesaja 60
 
-### 103. Neuer Himmel, neue Erde
+### Neuer Himmel, neue Erde (Teil 103)
 
 Schritte 617 bis 622. Einer, den Gott beauftragt hat (der Gesalbte), bringt gute Nachricht für die Armen, das Volk klagt, und Gott verheißt einen neuen Himmel und eine neue Erde.
 
@@ -1269,7 +1269,7 @@ Schritte 617 bis 622. Einer, den Gott beauftragt hat (der Gesalbte), bringt gute
 - 621: Jesaja 65
 - 622: Jesaja 66
 
-### 104. Manasse und Josia
+### Manasse und Josia (Teil 104)
 
 Schritte 623 bis 626. Manasse führt Juda in den Götzendienst und kehrt in Gefangenschaft um, unter Josia wird das Gesetzbuch wiedergefunden und der Tempel gereinigt.
 
@@ -1278,7 +1278,7 @@ Schritte 623 bis 626. Manasse führt Juda in den Götzendienst und kehrt in Gefa
 - 625: 2. Könige 23
 - 626: 2. Chronik 33
 
-### 105. Zefanja
+### Zefanja (Teil 105)
 
 Schritte 627 bis 629. Der Tag, an dem Gott eingreift, kommt als Gericht, doch Gott freut sich über sein Volk und rettet die Demütigen.
 
@@ -1288,7 +1288,7 @@ Schritte 627 bis 629. Der Tag, an dem Gott eingreift, kommt als Gericht, doch Go
 
 Video: [BibleProject: Zefanja](https://youtu.be/zJezRH2kdgE)
 
-### 106. Nahum
+### Nahum (Teil 106)
 
 Schritte 630 bis 632. Gott richtet die grausame Stadt Ninive und ist eine Zuflucht für alle, die ihm vertrauen.
 
@@ -1298,7 +1298,7 @@ Schritte 630 bis 632. Gott richtet die grausame Stadt Ninive und ist eine Zufluc
 
 Video: [BibleProject: Nahum](https://youtu.be/3urB4sFuIM4)
 
-### 107. Habakuk
+### Habakuk (Teil 107)
 
 Schritte 633 bis 635. Habakuk fragt Gott, warum er Unrecht zulässt, und lernt, im Glauben zu leben, auch wenn nichts mehr wächst.
 
@@ -1309,9 +1309,9 @@ Schritte 633 bis 635. Habakuk fragt Gott, warum er Unrecht zulässt, und lernt, 
 Video: [BibleProject: Habakuk](https://youtu.be/7B3ngdxDMGg)
 
 
-## Untergang und Exil
+## Abschnitt 9: Untergang und Exil
 
-### 108. Jeremia wird gerufen
+### Jeremia wird gerufen (Teil 108)
 
 Schritte 636 bis 642. Gott beruft den jungen Jeremia, klagt das Volk an, das ihn, die Quelle des Lebens, verlassen hat, und warnt vor falschem Vertrauen auf den Tempel.
 
@@ -1325,7 +1325,7 @@ Schritte 636 bis 642. Gott beruft den jungen Jeremia, klagt das Volk an, das ihn
 
 Video: [BibleProject: Jeremia](https://youtu.be/2hFQoNVe55w)
 
-### 109. Jeremia weint
+### Jeremia weint (Teil 109)
 
 Schritte 643 bis 649. Jeremia klagt über ein Volk, das nicht umkehrt, Gott zeigt ihm an einem Gürtel, wie verdorben Juda ist, und eine Dürre kommt.
 
@@ -1337,7 +1337,7 @@ Schritte 643 bis 649. Jeremia klagt über ein Volk, das nicht umkehrt, Gott zeig
 - 648: Jeremia 13
 - 649: Jeremia 14
 
-### 110. Beim Töpfer
+### Beim Töpfer (Teil 110)
 
 Schritte 650 bis 656. Jeremia leidet an seinem Auftrag, sieht beim Töpfer, wie Gott formt, wird geschlagen und klagt Gott sein Leid.
 
@@ -1349,7 +1349,7 @@ Schritte 650 bis 656. Jeremia leidet an seinem Auftrag, sieht beim Töpfer, wie 
 - 655: Jeremia 20
 - 656: Jeremia 21
 
-### 111. Falsche und wahre Propheten
+### Falsche und wahre Propheten (Teil 111)
 
 Schritte 657 bis 663. Jeremia kündigt einen gerechten Nachkommen Davids an, sagt siebzig Jahre Babylon voraus und tritt den falschen Propheten entgegen.
 
@@ -1361,7 +1361,7 @@ Schritte 657 bis 663. Jeremia kündigt einen gerechten Nachkommen Davids an, sag
 - 662: Jeremia 27
 - 663: Jeremia 28
 
-### 112. Der neue Bund
+### Der neue Bund (Teil 112)
 
 Schritte 664 bis 670. Jeremia schreibt den Verbannten einen Brief, Gott verheißt einen neuen Bund, und Jeremia kauft im Vertrauen auf Gott einen Acker.
 
@@ -1373,7 +1373,7 @@ Schritte 664 bis 670. Jeremia schreibt den Verbannten einen Brief, Gott verheiß
 - 669: Jeremia 34
 - 670: Jeremia 35
 
-### 113. Jerusalem fällt
+### Jerusalem fällt (Teil 113)
 
 Schritte 671 bis 675. Der König verbrennt Jeremias Buchrolle, Jeremia sitzt in der Zisterne, und Babylon erobert Jerusalem.
 
@@ -1383,7 +1383,7 @@ Schritte 671 bis 675. Der König verbrennt Jeremias Buchrolle, Jeremia sitzt in 
 - 674: Jeremia 39
 - 675: Jeremia 40
 
-### 114. Flucht nach Ägypten
+### Flucht nach Ägypten (Teil 114)
 
 Schritte 676 bis 679. Die Übriggebliebenen fragen Jeremia um Rat, gehorchen nicht und ziehen nach Ägypten.
 
@@ -1392,7 +1392,7 @@ Schritte 676 bis 679. Die Übriggebliebenen fragen Jeremia um Rat, gehorchen nic
 - 678: Jeremia 43
 - 679: Jeremia 44
 
-### 115. Gericht über die Völker
+### Gericht über die Völker (Teil 115)
 
 Schritte 680 bis 687. Worte über Ägypten, die Philister, Moab, Edom und Babylon, und zuletzt der Bericht vom Fall Jerusalems.
 
@@ -1405,7 +1405,7 @@ Schritte 680 bis 687. Worte über Ägypten, die Philister, Moab, Edom und Babylo
 - 686: Jeremia 51
 - 687: Jeremia 52
 
-### 116. Klage über Jerusalem
+### Klage über Jerusalem (Teil 116)
 
 Schritte 688 bis 695. Die Königsbücher erzählen das Ende Judas. Die Klagelieder trauern über die zerstörte Stadt und halten an Gottes Treue fest, und die Verbannten weinen an den Flüssen Babylons.
 
@@ -1420,7 +1420,7 @@ Schritte 688 bis 695. Die Königsbücher erzählen das Ende Judas. Die Klagelied
 
 Video: [BibleProject: Klagelieder](https://youtu.be/Kysg5GET0o0)
 
-### 117. Obadja
+### Obadja (Teil 117)
 
 Schritt 696. Gericht über Edom, das sich über das Unglück seines Brudervolkes Juda gefreut hat.
 
@@ -1428,7 +1428,7 @@ Schritt 696. Gericht über Edom, das sich über das Unglück seines Brudervolkes
 
 Video: [BibleProject: Obadja](https://youtu.be/FMlWKSd0Sgw)
 
-### 118. Hesekiel sieht Gottes Herrlichkeit
+### Hesekiel sieht Gottes Herrlichkeit (Teil 118)
 
 Schritte 697 bis 703. Hesekiel sieht Gott in Babylon, wird zum Wächter für sein Volk eingesetzt und spielt die Belagerung Jerusalems vor.
 
@@ -1442,7 +1442,7 @@ Schritte 697 bis 703. Hesekiel sieht Gott in Babylon, wird zum Wächter für sei
 
 Video: [BibleProject: Hesekiel Kap. 1-33](https://youtu.be/L0h5QNJiVXc)
 
-### 119. Gottes Herrlichkeit verlässt den Tempel
+### Gottes Herrlichkeit verlässt den Tempel (Teil 119)
 
 Schritte 704 bis 710. Hesekiel sieht Götzendienst im Tempel, die Herrlichkeit Gottes zieht aus, doch Gott verheißt ein neues Herz.
 
@@ -1454,7 +1454,7 @@ Schritte 704 bis 710. Hesekiel sieht Götzendienst im Tempel, die Herrlichkeit G
 - 709: Hesekiel 13
 - 710: Hesekiel 14
 
-### 120. Umkehren und leben
+### Umkehren und leben (Teil 120)
 
 Schritte 711 bis 717. Bilder vom nutzlosen Weinstock und der untreuen Frau, und Gott sagt, dass er nicht den Tod des Schuldigen will, sondern dass er umkehrt und lebt.
 
@@ -1466,7 +1466,7 @@ Schritte 711 bis 717. Bilder vom nutzlosen Weinstock und der untreuen Frau, und 
 - 716: Hesekiel 20
 - 717: Hesekiel 21
 
-### 121. Die Schuld Jerusalems
+### Die Schuld Jerusalems (Teil 121)
 
 Schritte 718 bis 724. Gott klagt Jerusalem an und zeigt ihre Untreue im Bild zweier Schwestern. Hesekiels Frau stirbt als Zeichen, und die Nachbarvölker, darunter Tyrus, werden gerichtet.
 
@@ -1478,7 +1478,7 @@ Schritte 718 bis 724. Gott klagt Jerusalem an und zeigt ihre Untreue im Bild zwe
 - 723: Hesekiel 27
 - 724: Hesekiel 28
 
-### 122. Gericht über Ägypten
+### Gericht über Ägypten (Teil 122)
 
 Schritte 725 bis 728. Ägypten, das sich wie ein großes Ungeheuer im Nil für unbesiegbar hält, wird gerichtet.
 
@@ -1487,7 +1487,7 @@ Schritte 725 bis 728. Ägypten, das sich wie ein großes Ungeheuer im Nil für u
 - 727: Hesekiel 31
 - 728: Hesekiel 32
 
-### 123. Totengebeine werden lebendig
+### Totengebeine werden lebendig (Teil 123)
 
 Schritte 729 bis 735. Hesekiel wird wieder Wächter, Gott will selbst sein Volk weiden wie ein Hirte, gibt ein neues Herz, und tote Gebeine werden lebendig.
 
@@ -1501,7 +1501,7 @@ Schritte 729 bis 735. Hesekiel wird wieder Wächter, Gott will selbst sein Volk 
 
 Video: [BibleProject: Hesekiel Kap. 34-48](https://youtu.be/2gxebq-PTCg)
 
-### 124. Der neue Tempel (1)
+### Der neue Tempel (1) (Teil 124)
 
 Schritte 736 bis 740. Hesekiel sieht einen neuen Tempel, und die Herrlichkeit Gottes kehrt zurück.
 
@@ -1511,7 +1511,7 @@ Schritte 736 bis 740. Hesekiel sieht einen neuen Tempel, und die Herrlichkeit Go
 - 739: Hesekiel 43
 - 740: Hesekiel 44
 
-### 125. Der neue Tempel (2)
+### Der neue Tempel (2) (Teil 125)
 
 Schritte 741 bis 744. Ordnungen für den neuen Tempel, ein Strom fließt aus dem Tempel und macht alles lebendig, und die Stadt bekommt einen neuen Namen.
 
@@ -1520,7 +1520,7 @@ Schritte 741 bis 744. Ordnungen für den neuen Tempel, ein Strom fließt aus dem
 - 743: Hesekiel 47
 - 744: Hesekiel 48
 
-### 126. Daniel in Babylon
+### Daniel in Babylon (Teil 126)
 
 Schritte 745 bis 750. Daniel und seine Freunde bleiben Gott treu: Daniel deutet den Traum des Königs, seine Freunde überstehen den Feuerofen, Daniel liest die Schrift an der Wand und wird aus der Löwengrube gerettet.
 
@@ -1533,7 +1533,7 @@ Schritte 745 bis 750. Daniel und seine Freunde bleiben Gott treu: Daniel deutet 
 
 Video: [BibleProject: Daniel](https://youtu.be/aOs-QRJl8xY)
 
-### 127. Daniels Visionen
+### Daniels Visionen (Teil 127)
 
 Schritte 751 bis 756. Daniel sieht vier Tiere und einen, der wie ein Mensch aussieht und mit den Wolken kommt (der Menschensohn), betet für sein Volk und schaut auf das Ende.
 
@@ -1544,7 +1544,7 @@ Schritte 751 bis 756. Daniel sieht vier Tiere und einen, der wie ein Mensch auss
 - 755: Daniel 11
 - 756: Daniel 12
 
-### 128. Ester wird Königin
+### Ester wird Königin (Teil 128)
 
 Schritte 757 bis 761. Eine junge Jüdin wird Königin von Persien, Haman will alle Juden töten, und Ester geht ungerufen zum König.
 
@@ -1556,7 +1556,7 @@ Schritte 757 bis 761. Eine junge Jüdin wird Königin von Persien, Haman will al
 
 Video: [BibleProject: Ester](https://youtu.be/u9Jp9gc_Cgo), Mut einer persischen Königin
 
-### 129. Die Wende
+### Die Wende (Teil 129)
 
 Schritte 762 bis 766. Haman fällt in die eigene Falle, die Juden werden gerettet, und das Purimfest erinnert daran.
 
@@ -1567,9 +1567,9 @@ Schritte 762 bis 766. Haman fällt in die eigene Falle, die Juden werden gerette
 - 766: Ester 10
 
 
-## Heimkehr und Wiederaufbau
+## Abschnitt 10: Heimkehr und Wiederaufbau
 
-### 130. Heimkehr
+### Heimkehr (Teil 130)
 
 Schritte 767 bis 773. Kyrus erlaubt die Rückkehr. Die Heimkehrer bauen den Altar und legen den Grundstein des Tempels, dann stoppen Gegner den Bau. Dazu Psalmen über Gottes Güte.
 
@@ -1583,7 +1583,7 @@ Schritte 767 bis 773. Kyrus erlaubt die Rückkehr. Die Heimkehrer bauen den Alta
 
 Video: [BibleProject: Esra-Nehemia](https://youtu.be/SGO0vu2-xSk)
 
-### 131. Haggai und Sacharja
+### Haggai und Sacharja (Teil 131)
 
 Schritte 774 bis 781. Haggai ruft das Volk, den Tempel weiterzubauen, und Sacharja sieht in Visionen in der Nacht, dass Gott Jerusalem wieder erwählt.
 
@@ -1598,7 +1598,7 @@ Schritte 774 bis 781. Haggai ruft das Volk, den Tempel weiterzubauen, und Sachar
 
 Video: [BibleProject: Haggai](https://youtu.be/mPt3d4D4NsM), [BibleProject: Sacharja](https://youtu.be/_N26FJaOCkE), Sacharja – Wiederaufbau des Tempels
 
-### 132. Der König auf dem Esel
+### Der König auf dem Esel (Teil 132)
 
 Schritte 782 bis 788. Sacharja kündigt einen König an, der demütig auf einem Esel kommt. Er spricht von einem Durchbohrten, um den das Volk klagt, von einem geschlagenen Hirten und vom Tag, an dem Gott König über die ganze Erde ist.
 
@@ -1610,7 +1610,7 @@ Schritte 782 bis 788. Sacharja kündigt einen König an, der demütig auf einem 
 - 787: Sacharja 13
 - 788: Sacharja 14
 
-### 133. Der Tempel ist fertig
+### Der Tempel ist fertig (Teil 133)
 
 Schritte 789 bis 791. Darius bestätigt die Erlaubnis, der Tempel wird vollendet und eingeweiht, dazu Lobpsalmen, die im Judentum später zum Passafest gesungen werden.
 
@@ -1618,7 +1618,7 @@ Schritte 789 bis 791. Darius bestätigt die Erlaubnis, der Tempel wird vollendet
 - 790: Esra 6
 - 791: Psalm 114-116; Psalm 117-118
 
-### 134. Esra
+### Esra (Teil 134)
 
 Schritte 792 bis 798. Esra, ein Lehrer der heiligen Schriften, kommt nach Jerusalem, um das Gesetz zu lehren, und ruft das Volk wegen der Ehen mit Frauen aus den Völkern des Landes zur Umkehr. Dazu Lob- und Klagepsalmen, über Zion und über den Bund mit David.
 
@@ -1630,7 +1630,7 @@ Schritte 792 bis 798. Esra, ein Lehrer der heiligen Schriften, kommt nach Jerusa
 - 797: Psalm 87; Psalm 88
 - 798: Psalm 89
 
-### 135. Stammbäume
+### Stammbäume (Teil 135)
 
 Schritte 799 bis 805. Die Chronik beginnt bei Adam und verfolgt die Familien Israels Stamm für Stamm bis in die Zeit nach dem Exil.
 
@@ -1644,7 +1644,7 @@ Schritte 799 bis 805. Die Chronik beginnt bei Adam und verfolgt die Familien Isr
 
 Video: [BibleProject: Chroniken](https://youtu.be/MyhFWaS9LJs)
 
-### 136. David aus Sicht der Chronik
+### David aus Sicht der Chronik (Teil 136)
 
 Schritte 806 bis 812. Weitere Stammbäume, Davids Helden, die Bundeslade kommt nach Jerusalem, und Gottes Zusage an David.
 
@@ -1656,7 +1656,7 @@ Schritte 806 bis 812. Weitere Stammbäume, Davids Helden, die Bundeslade kommt n
 - 811: 1. Chronik 15
 - 812: 1. Chronik 17
 
-### 137. Josia und das Ende Judas
+### Josia und das Ende Judas (Teil 137)
 
 Schritte 813 bis 815. Josia findet das Gesetzbuch und feiert das Passa, Juda fällt, und Kyrus erlaubt die Heimkehr.
 
@@ -1664,7 +1664,7 @@ Schritte 813 bis 815. Josia findet das Gesetzbuch und feiert das Passa, Juda fä
 - 814: 2. Chronik 35
 - 815: 2. Chronik 36
 
-### 138. Die Mauer
+### Die Mauer (Teil 138)
 
 Schritte 816 bis 822. Nehemia betet, bekommt vom König die Erlaubnis und baut mit dem Volk trotz Spott und Drohung die Mauer Jerusalems, dazu Lieder für den Weg nach Jerusalem.
 
@@ -1678,7 +1678,7 @@ Schritte 816 bis 822. Nehemia betet, bekommt vom König die Erlaubnis und baut m
 
 Video: [BibleProject: Esra-Nehemia](https://youtu.be/SGO0vu2-xSk)
 
-### 139. Das Wort wird gelesen
+### Das Wort wird gelesen (Teil 139)
 
 Schritte 823 bis 829. Esra liest dem Volk das Gesetz vor, das Volk weint, feiert und bekennt seine Schuld, dazu Psalm 119 über Gottes Wort.
 
@@ -1690,7 +1690,7 @@ Schritte 823 bis 829. Esra liest dem Volk das Gesetz vor, das Volk weint, feiert
 - 828: Nehemia 9
 - 829: Nehemia 10
 
-### 140. Neubeginn mit Rückschlägen
+### Neubeginn mit Rückschlägen (Teil 140)
 
 Schritte 830 bis 834. Jerusalem wird wieder bewohnt, die Mauer eingeweiht, Nehemia muss alte Missstände erneut ordnen, und am Ende stehen die Lobpsalmen 146 bis 150.
 
@@ -1700,7 +1700,7 @@ Schritte 830 bis 834. Jerusalem wird wieder bewohnt, die Mauer eingeweiht, Nehem
 - 833: Nehemia 13
 - 834: Psalm 146-148; Psalm 149-150
 
-### 141. Maleachi
+### Maleachi (Teil 141)
 
 Schritte 835 bis 838. Gott versichert seinem müden, zweifelnden Volk seine Liebe, kündigt einen Boten an, der den Weg bereitet, und sagt, dass er den Propheten Elia senden wird.
 
@@ -1711,7 +1711,7 @@ Schritte 835 bis 838. Gott versichert seinem müden, zweifelnden Volk seine Lieb
 
 Video: [BibleProject: Maleachi](https://youtu.be/J3Mm5McR0Ak)
 
-### 142. Joel
+### Joel (Teil 142)
 
 Schritte 839 bis 841. Heuschrecken verwüsten das Land, Joel ruft zur Umkehr, und Gott verheißt, seinen Geist über alle Menschen auszugießen.
 
@@ -1722,9 +1722,9 @@ Schritte 839 bis 841. Heuschrecken verwüsten das Land, Joel ruft zur Umkehr, un
 Video: [BibleProject: Joel](https://youtu.be/qpNaQ2cMMlk)
 
 
-## Jesus und die ersten Christen
+## Abschnitt 11: Jesus und die ersten Christen
 
-### 143. Die Gemeinde entsteht
+### Die Gemeinde entsteht (Teil 143)
 
 Schritte 842 bis 847. Jesus kehrt zu Gott, seinem Vater, zurück, der Heilige Geist kommt zu Pfingsten auf die Jünger, die ersten Christen teilen alles, und die Apostel werden verfolgt.
 
@@ -1737,7 +1737,7 @@ Schritte 842 bis 847. Jesus kehrt zu Gott, seinem Vater, zurück, der Heilige Ge
 
 Video: [BibleProject: Übersicht: Neues Testament](https://youtu.be/L9Y0z1OZpLg), [BibleProject: Apostelgeschichte Kap. 1-12](https://youtu.be/9XLmtudlWDg)
 
-### 144. Die gute Nachricht breitet sich aus
+### Die gute Nachricht breitet sich aus (Teil 144)
 
 Schritte 848 bis 851. Stephanus stirbt als erster Zeuge, die Botschaft kommt nach Samarien, Saulus (später Paulus genannt) begegnet Jesus vor Damaskus, und Petrus lernt, dass Gott auch Nichtjuden annimmt.
 
@@ -1746,7 +1746,7 @@ Schritte 848 bis 851. Stephanus stirbt als erster Zeuge, die Botschaft kommt nac
 - 850: Apostelgeschichte 9
 - 851: Apostelgeschichte 10
 
-### 145. Markus: Wer ist dieser?
+### Markus: Wer ist dieser? (Teil 145)
 
 Schritte 852 bis 858. Jesus ruft Jünger, heilt Kranke, vergibt Schuld, erzählt Gleichnisse, stillt den Sturm und sättigt die Fünftausend.
 
@@ -1760,7 +1760,7 @@ Schritte 852 bis 858. Jesus ruft Jünger, heilt Kranke, vergibt Schuld, erzählt
 
 Video: [BibleProject: Markus](https://youtu.be/If-fs-dl84o)
 
-### 146. Markus: Der Weg nach Jerusalem
+### Markus: Der Weg nach Jerusalem (Teil 146)
 
 Schritte 859 bis 863. Petrus bekennt Jesus als den versprochenen Retter, Jesus kündigt sein Leiden an, wird auf einem Berg vor drei Jüngern verwandelt und leuchtet in himmlischem Licht, segnet Kinder und zieht in Jerusalem ein.
 
@@ -1770,7 +1770,7 @@ Schritte 859 bis 863. Petrus bekennt Jesus als den versprochenen Retter, Jesus k
 - 862: Markus 11
 - 863: Markus 12
 
-### 147. Markus: Kreuz und leeres Grab
+### Markus: Kreuz und leeres Grab (Teil 147)
 
 Schritte 864 bis 868. Jesus spricht über das Ende, feiert das letzte Mahl, wird verraten, gekreuzigt und steht auf, dazu die erste Gemeinde in Antiochia.
 
@@ -1780,7 +1780,7 @@ Schritte 864 bis 868. Jesus spricht über das Ende, feiert das letzte Mahl, wird
 - 867: Markus 16
 - 868: Apostelgeschichte 11
 
-### 148. Matthäus: Der König und seine Bergpredigt
+### Matthäus: Der König und seine Bergpredigt (Teil 148)
 
 Schritte 869 bis 875. Der Stammbaum Jesu, seine Geburt, Taufe und Versuchung, dann die Bergpredigt über das Leben in Gottes Reich.
 
@@ -1794,7 +1794,7 @@ Schritte 869 bis 875. Der Stammbaum Jesu, seine Geburt, Taufe und Versuchung, da
 
 Video: [BibleProject: Matthäus Kap. 1-13](https://youtu.be/YnfiW_xBsMQ)
 
-### 149. Matthäus: Zeichen und Gleichnisse
+### Matthäus: Zeichen und Gleichnisse (Teil 149)
 
 Schritte 876 bis 882. Jesus heilt, sendet seine zwölf engsten Schüler aus, lädt die Müden zu sich ein, erzählt Gleichnisse vom Reich Gottes und geht auf dem Wasser.
 
@@ -1808,7 +1808,7 @@ Schritte 876 bis 882. Jesus heilt, sendet seine zwölf engsten Schüler aus, lä
 
 Video: [BibleProject: Matthäus Kap. 14-28](https://youtu.be/qjafm3VQRUY)
 
-### 150. Matthäus: Wer ist Jesus?
+### Matthäus: Wer ist Jesus? (Teil 150)
 
 Schritte 883 bis 889. Petrus bekennt Jesus als den versprochenen Retter, Jesus wird auf einem Berg vor drei Jüngern verwandelt und leuchtet in himmlischem Licht, lehrt über Vergebung und zieht in Jerusalem ein.
 
@@ -1820,7 +1820,7 @@ Schritte 883 bis 889. Petrus bekennt Jesus als den versprochenen Retter, Jesus w
 - 888: Matthäus 20
 - 889: Matthäus 21
 
-### 151. Matthäus: Leiden und Auferstehung
+### Matthäus: Leiden und Auferstehung (Teil 151)
 
 Schritte 890 bis 896. Streitgespräche im Tempel, Reden über das Ende, das letzte Abendessen mit seinen Schülern (das Abendmahl), die Kreuzigung, die Auferstehung und der Auftrag an alle Völker.
 
@@ -1833,9 +1833,9 @@ Schritte 890 bis 896. Streitgespräche im Tempel, Reden über das Ende, das letz
 - 896: Matthäus 28
 
 
-## Paulus unterwegs
+## Abschnitt 12: Paulus unterwegs
 
-### 152. Die erste Reise
+### Die erste Reise (Teil 152)
 
 Schritte 897 bis 899. Petrus wird aus dem Gefängnis befreit, Barnabas und Paulus werden ausgesandt und gründen Gemeinden in Kleinasien.
 
@@ -1845,7 +1845,7 @@ Schritte 897 bis 899. Petrus wird aus dem Gefängnis befreit, Barnabas und Paulu
 
 Video: [BibleProject: Apostelgeschichte Kap. 13-28](https://youtu.be/utaAu5qNZig)
 
-### 153. Jakobus
+### Jakobus (Teil 153)
 
 Schritte 900 bis 904. Ein Brief über Glauben, der sich im Handeln zeigt, über die Macht der Worte und über Geduld im Leid.
 
@@ -1857,7 +1857,7 @@ Schritte 900 bis 904. Ein Brief über Glauben, der sich im Handeln zeigt, über 
 
 Video: [BibleProject: Jakobus](https://youtu.be/4hLzi0LrmSU)
 
-### 154. Treffen in Jerusalem und zweite Reise
+### Treffen in Jerusalem und zweite Reise (Teil 154)
 
 Schritte 905 bis 908. Die Apostel klären bei einem Treffen in Jerusalem, dass Nichtjuden nicht erst Juden werden müssen. Paulus kommt nach Europa, nach Philippi, Athen und Korinth, und wirkt danach in Ephesus.
 
@@ -1866,7 +1866,7 @@ Schritte 905 bis 908. Die Apostel klären bei einem Treffen in Jerusalem, dass N
 - 907: Apostelgeschichte 17
 - 908: Apostelgeschichte 18; Apostelgeschichte 19,1-20
 
-### 155. 1. Korinther: Streit in der Gemeinde
+### 1. Korinther: Streit in der Gemeinde (Teil 155)
 
 Schritte 909 bis 913. Paulus schreibt einer zerstrittenen Gemeinde über das Kreuz als Gottes Weisheit und über Sünde mitten unter ihnen.
 
@@ -1878,7 +1878,7 @@ Schritte 909 bis 913. Paulus schreibt einer zerstrittenen Gemeinde über das Kre
 
 Video: [BibleProject: 1. Korinther](https://youtu.be/LuurVpuqEr0)
 
-### 156. 1. Korinther: Freiheit und Rücksicht
+### 1. Korinther: Freiheit und Rücksicht (Teil 156)
 
 Schritte 914 bis 917. Rechtsstreit, Ehe und Ehelosigkeit, Fleisch von Götzenopfern, und Paulus verzichtet auf eigene Rechte, damit mehr Menschen die gute Nachricht hören.
 
@@ -1887,7 +1887,7 @@ Schritte 914 bis 917. Rechtsstreit, Ehe und Ehelosigkeit, Fleisch von Götzenopf
 - 916: 1. Korinther 8
 - 917: 1. Korinther 9
 
-### 157. 1. Korinther: Liebe und Auferstehung
+### 1. Korinther: Liebe und Auferstehung (Teil 157)
 
 Schritte 918 bis 924. Abendmahl, Gaben des Geistes, das große Kapitel über die Liebe und die Auferstehung der Toten.
 
@@ -1899,7 +1899,7 @@ Schritte 918 bis 924. Abendmahl, Gaben des Geistes, das große Kapitel über die
 - 923: 1. Korinther 15
 - 924: 1. Korinther 16
 
-### 158. 2. Thessalonicher und Titus
+### 2. Thessalonicher und Titus (Teil 158)
 
 Schritte 925 bis 929. Paulus beruhigt eine Gemeinde, die das Ende schon gekommen glaubt, und gibt Titus Rat für den Aufbau der Gemeinden auf Kreta.
 
@@ -1911,7 +1911,7 @@ Schritte 925 bis 929. Paulus beruhigt eine Gemeinde, die das Ende schon gekommen
 
 Video: [BibleProject: 2. Thessalonicher](https://youtu.be/yQu8rJFdzZM), [BibleProject: Titus](https://youtu.be/2liHZlumVcs)
 
-### 159. 1. Thessalonicher
+### 1. Thessalonicher (Teil 159)
 
 Schritte 930 bis 934. Paulus freut sich über eine junge Gemeinde, ermutigt sie in der Verfolgung und tröstet sie mit der Hoffnung, dass Jesus wiederkommt.
 
@@ -1923,7 +1923,7 @@ Schritte 930 bis 934. Paulus freut sich über eine junge Gemeinde, ermutigt sie 
 
 Video: [BibleProject: 1. Thessalonicher](https://youtu.be/ZRtD-YidDDs)
 
-### 160. Epheser
+### Epheser (Teil 160)
 
 Schritte 935 bis 940. Aus Gnade gerettet, Juden und Nichtjuden in einer Gemeinschaft vereint, ein Leben in Liebe in Familie und Alltag, dazu die Waffenrüstung Gottes.
 
@@ -1936,7 +1936,7 @@ Schritte 935 bis 940. Aus Gnade gerettet, Juden und Nichtjuden in einer Gemeinsc
 
 Video: [BibleProject: Epheser](https://youtu.be/aG3c1LO-poI)
 
-### 161. Philemon und Philipper
+### Philemon und Philipper (Teil 161)
 
 Schritte 941 bis 944. Paulus bittet für den Sklaven Onesimus, der jetzt selbst an Jesus glaubt. Aus dem Gefängnis schreibt er den Philippern einen Brief voller Freude über Christus, der sich klein gemacht hat. Dazu der Aufruhr in Ephesus aus der Apostelgeschichte.
 
@@ -1947,7 +1947,7 @@ Schritte 941 bis 944. Paulus bittet für den Sklaven Onesimus, der jetzt selbst 
 
 Video: [BibleProject: Philemon](https://youtu.be/4oFlijk3jWQ), [BibleProject: Philipper](https://youtu.be/H-1LF1LXOgc)
 
-### 162. Kolosser
+### Kolosser (Teil 162)
 
 Schritte 945 bis 948. Christus ist das Haupt über alles, darum braucht es keine menschlichen Zusatzregeln, und das neue Leben zeigt sich im Miteinander.
 
@@ -1958,7 +1958,7 @@ Schritte 945 bis 948. Christus ist das Haupt über alles, darum braucht es keine
 
 Video: [BibleProject: Kolosser](https://youtu.be/nLMMB4ZeHT8)
 
-### 163. 1. Timotheus
+### 1. Timotheus (Teil 163)
 
 Schritte 949 bis 954. Paulus gibt dem jungen Timotheus Rat für Gebet, Leitung, Witwen, Geld und gesunde Lehre.
 
@@ -1971,7 +1971,7 @@ Schritte 949 bis 954. Paulus gibt dem jungen Timotheus Rat für Gebet, Leitung, 
 
 Video: [BibleProject: 1. Timotheus](https://youtu.be/fKHQqofGzN4)
 
-### 164. Galater
+### Galater (Teil 164)
 
 Schritte 955 bis 960. Vor Gott gerecht wird man durch Vertrauen auf Christus, nicht durch das Erfüllen des Gesetzes, frei zur Liebe und geführt vom Geist.
 
@@ -1984,7 +1984,7 @@ Schritte 955 bis 960. Vor Gott gerecht wird man durch Vertrauen auf Christus, ni
 
 Video: [BibleProject: Galater](https://youtu.be/7itkqlIH_4Q)
 
-### 165. 2. Timotheus
+### 2. Timotheus (Teil 165)
 
 Schritte 961 bis 964. Paulus schreibt im Angesicht seines Todes: am Glauben festhalten, die Schrift lehren und bis zum Ende durchhalten.
 
@@ -1995,7 +1995,7 @@ Schritte 961 bis 964. Paulus schreibt im Angesicht seines Todes: am Glauben fest
 
 Video: [BibleProject: 2. Timotheus](https://youtu.be/oa4X85AurwM)
 
-### 166. 2. Korinther: Gottes Trost
+### 2. Korinther: Gottes Trost (Teil 166)
 
 Schritte 965 bis 971. Paulus erzählt von Trost im Leid, vom neuen Bund und davon, dass Gott die Welt mit sich versöhnt hat.
 
@@ -2009,7 +2009,7 @@ Schritte 965 bis 971. Paulus erzählt von Trost im Leid, vom neuen Bund und davo
 
 Video: [BibleProject: 2. Korinther](https://youtu.be/ZnloEyPB6F4)
 
-### 167. 2. Korinther: Geben und Schwachsein
+### 2. Korinther: Geben und Schwachsein (Teil 167)
 
 Schritte 972 bis 977. Fröhliches Geben für die Armen in Jerusalem und Paulus' Erfahrung, dass Gottes Kraft in der Schwachheit stark ist.
 
@@ -2020,7 +2020,7 @@ Schritte 972 bis 977. Fröhliches Geben für die Armen in Jerusalem und Paulus' 
 - 976: 2. Korinther 12
 - 977: 2. Korinther 13
 
-### 168. Römer: Alle brauchen Gnade
+### Römer: Alle brauchen Gnade (Teil 168)
 
 Schritte 978 bis 981. Juden wie Nichtjuden haben gesündigt, und alle werden gerecht durch den Glauben, wie schon Abraham.
 
@@ -2031,7 +2031,7 @@ Schritte 978 bis 981. Juden wie Nichtjuden haben gesündigt, und alle werden ger
 
 Video: [BibleProject: Römer Kap. 1-4](https://youtu.be/DQyi-r6iV8U)
 
-### 169. Römer: Neues Leben
+### Römer: Neues Leben (Teil 169)
 
 Schritte 982 bis 987. Frieden mit Gott, Freiheit von der Sünde, der Kampf in uns, nichts trennt uns von Gottes Liebe, und Gottes Weg mit Israel.
 
@@ -2044,7 +2044,7 @@ Schritte 982 bis 987. Frieden mit Gott, Freiheit von der Sünde, der Kampf in un
 
 Video: [BibleProject: Römer Kap. 5-16](https://youtu.be/OLGU1dsTbyg)
 
-### 170. Römer: Leben als Antwort
+### Römer: Leben als Antwort (Teil 170)
 
 Schritte 988 bis 994. Gottes Treue zu Israel, das ganze Leben als Gottesdienst, Rücksicht auf Schwache, Grüße, und Paulus' Abschied von den Ältesten aus Ephesus.
 
@@ -2057,9 +2057,9 @@ Schritte 988 bis 994. Gottes Treue zu Israel, das ganze Leben als Gottesdienst, 
 - 994: Apostelgeschichte 20,4-38
 
 
-## Paulus in Haft, Briefe von Petrus und an die Hebräer
+## Abschnitt 13: Paulus in Haft, Briefe von Petrus und an die Hebräer
 
-### 171. Paulus wird verhaftet
+### Paulus wird verhaftet (Teil 171)
 
 Schritte 995 bis 999. In Jerusalem wird Paulus festgenommen, erzählt, wie er zum Glauben an Jesus kam, entgeht einem Mordanschlag und steht vor Felix und Festus.
 
@@ -2069,7 +2069,7 @@ Schritte 995 bis 999. In Jerusalem wird Paulus festgenommen, erzählt, wie er zu
 - 998: Apostelgeschichte 24
 - 999: Apostelgeschichte 25
 
-### 172. Judas und 2. Petrus
+### Judas und 2. Petrus (Teil 172)
 
 Schritte 1000 bis 1002. Warnungen vor falschen Lehrern und die Gewissheit, dass Gott sein Versprechen hält und geduldig wartet.
 
@@ -2079,7 +2079,7 @@ Schritte 1000 bis 1002. Warnungen vor falschen Lehrern und die Gewissheit, dass 
 
 Video: [BibleProject: Judas](https://youtu.be/3D7ysrzVoWg), [BibleProject: 2. Petrus](https://youtu.be/lGtu3NVEkT4)
 
-### 173. Nach Rom
+### Nach Rom (Teil 173)
 
 Schritte 1003 bis 1005. Paulus redet vor König Agrippa, erleidet Schiffbruch und verkündet in Rom ungehindert das Reich Gottes.
 
@@ -2087,7 +2087,7 @@ Schritte 1003 bis 1005. Paulus redet vor König Agrippa, erleidet Schiffbruch un
 - 1004: Apostelgeschichte 27
 - 1005: Apostelgeschichte 28
 
-### 174. 1. Petrus
+### 1. Petrus (Teil 174)
 
 Schritte 1006 bis 1010. Lebendige Hoffnung mitten im Leid, ein heiliges Volk, und Gutes tun auch an denen, die einen schlecht behandeln.
 
@@ -2099,7 +2099,7 @@ Schritte 1006 bis 1010. Lebendige Hoffnung mitten im Leid, ein heiliges Volk, un
 
 Video: [BibleProject: 1. Petrus](https://youtu.be/nWMnVKAF8Jk)
 
-### 175. Hebräer: Jesus ist größer
+### Hebräer: Jesus ist größer (Teil 175)
 
 Schritte 1011 bis 1017. Jesus ist größer als Engel, Mose und alle Priester, ein oberster Priester (Hohepriester), der mit uns fühlen kann.
 
@@ -2113,7 +2113,7 @@ Schritte 1011 bis 1017. Jesus ist größer als Engel, Mose und alle Priester, ei
 
 Video: [BibleProject: Hebräer](https://youtu.be/bja6fTJ3t8U)
 
-### 176. Hebräer: Der neue Bund
+### Hebräer: Der neue Bund (Teil 176)
 
 Schritte 1018 bis 1023. Christus hat ein für alle Mal das Opfer gebracht, darum halten wir am Glauben fest wie die Zeugen vor uns und laufen mit Geduld.
 
@@ -2125,9 +2125,9 @@ Schritte 1018 bis 1023. Christus hat ein für alle Mal das Opfer gebracht, darum
 - 1023: Hebräer 13
 
 
-## Lukas, Johannes und die Offenbarung
+## Abschnitt 14: Lukas, Johannes und die Offenbarung
 
-### 177. Lukas: Der Retter ist geboren
+### Lukas: Der Retter ist geboren (Teil 177)
 
 Schritte 1024 bis 1029. Die Geburt von Johannes und Jesus, Jesu Taufe, seine Predigt in Nazareth und eine große Rede an die Menge.
 
@@ -2140,7 +2140,7 @@ Schritte 1024 bis 1029. Die Geburt von Johannes und Jesus, Jesu Taufe, seine Pre
 
 Video: [BibleProject: Lukas Kap. 1-9](https://youtu.be/hFSY9wmaTxE)
 
-### 178. Lukas: Unterwegs mit Jesus
+### Lukas: Unterwegs mit Jesus (Teil 178)
 
 Schritte 1030 bis 1036. Jesus vergibt einer Sünderin, sendet Jünger aus, erzählt vom barmherzigen Samariter und lehrt beten.
 
@@ -2154,7 +2154,7 @@ Schritte 1030 bis 1036. Jesus vergibt einer Sünderin, sendet Jünger aus, erzä
 
 Video: [BibleProject: Lukas Kap. 10-24](https://youtu.be/w5A64cBbyf0)
 
-### 179. Lukas: Gott sucht die Verlorenen
+### Lukas: Gott sucht die Verlorenen (Teil 179)
 
 Schritte 1037 bis 1043. Gleichnisse vom verlorenen Schaf und vom verlorenen Sohn, Zachäus, und der Einzug in Jerusalem.
 
@@ -2166,7 +2166,7 @@ Schritte 1037 bis 1043. Gleichnisse vom verlorenen Schaf und vom verlorenen Sohn
 - 1042: Lukas 19
 - 1043: Lukas 20
 
-### 180. Lukas: Kreuz und Emmaus
+### Lukas: Kreuz und Emmaus (Teil 180)
 
 Schritte 1044 bis 1047. Das letzte Mahl, die Kreuzigung, die Auferstehung und die Begegnung auf dem Weg nach Emmaus.
 
@@ -2175,7 +2175,7 @@ Schritte 1044 bis 1047. Das letzte Mahl, die Kreuzigung, die Auferstehung und di
 - 1046: Lukas 23
 - 1047: Lukas 24
 
-### 181. Die Johannesbriefe
+### Die Johannesbriefe (Teil 181)
 
 Schritte 1048 bis 1052. Gott ist Licht und Liebe, wer Gott liebt, liebt auch seine Geschwister, dazu zwei kurze Briefe über Wahrheit und Gastfreundschaft.
 
@@ -2187,7 +2187,7 @@ Schritte 1048 bis 1052. Gott ist Licht und Liebe, wer Gott liebt, liebt auch sei
 
 Video: [BibleProject: Johannesbriefe](https://youtu.be/j1EPdjp2zNY)
 
-### 182. Johannes: Das Wort wird Mensch
+### Johannes: Das Wort wird Mensch (Teil 182)
 
 Schritte 1053 bis 1058. Johannes nennt Jesus das Wort Gottes, das Mensch wird. Jesus verwandelt Wasser in Wein, spricht mit Nikodemus und der Frau am Brunnen und nennt sich das Brot des Lebens.
 
@@ -2200,7 +2200,7 @@ Schritte 1053 bis 1058. Johannes nennt Jesus das Wort Gottes, das Mensch wird. J
 
 Video: [BibleProject: Johannes Kap. 1-12](https://youtu.be/1Dx63MbgbhA)
 
-### 183. Johannes: Licht und Leben
+### Johannes: Licht und Leben (Teil 183)
 
 Schritte 1059 bis 1064. Jesus nennt sich das Licht der Welt und den guten Hirten, heilt einen Blindgeborenen und weckt Lazarus auf.
 
@@ -2211,7 +2211,7 @@ Schritte 1059 bis 1064. Jesus nennt sich das Licht der Welt und den guten Hirten
 - 1063: Johannes 11
 - 1064: Johannes 12
 
-### 184. Johannes: Der Abschied
+### Johannes: Der Abschied (Teil 184)
 
 Schritte 1065 bis 1069. Jesus wäscht den Jüngern die Füße, verspricht den Heiligen Geist als Beistand, nennt sich den Weinstock und betet für seine Schüler.
 
@@ -2223,7 +2223,7 @@ Schritte 1065 bis 1069. Jesus wäscht den Jüngern die Füße, verspricht den He
 
 Video: [BibleProject: Johannes Kap. 13-21](https://youtu.be/JwwzKyfkoTw)
 
-### 185. Johannes: Kreuz und Auferstehung
+### Johannes: Kreuz und Auferstehung (Teil 185)
 
 Schritte 1070 bis 1073. Jesus wird verhaftet und gekreuzigt, Maria aus Magdala begegnet dem Auferstandenen, Thomas zweifelt, und Petrus wird neu beauftragt.
 
@@ -2232,7 +2232,7 @@ Schritte 1070 bis 1073. Jesus wird verhaftet und gekreuzigt, Maria aus Magdala b
 - 1072: Johannes 20
 - 1073: Johannes 21
 
-### 186. Offenbarung: Briefe und Thron
+### Offenbarung: Briefe und Thron (Teil 186)
 
 Schritte 1074 bis 1078. Johannes sieht den auferstandenen Christus, schreibt an sieben Gemeinden und sieht Gottes Thron und das Lamm, ein Bild für Jesus.
 
@@ -2244,7 +2244,7 @@ Schritte 1074 bis 1078. Johannes sieht den auferstandenen Christus, schreibt an 
 
 Video: [BibleProject: Offenbarung Kap. 1-11](https://youtu.be/-daqkqk5k28)
 
-### 187. Offenbarung: Siegel und Posaunen
+### Offenbarung: Siegel und Posaunen (Teil 187)
 
 Schritte 1079 bis 1084. Gerichte brechen über die Welt herein, doch eine große Schar aus allen Völkern steht vor Gott.
 
@@ -2255,7 +2255,7 @@ Schritte 1079 bis 1084. Gerichte brechen über die Welt herein, doch eine große
 - 1083: Offenbarung 10
 - 1084: Offenbarung 11
 
-### 188. Offenbarung: Der Kampf
+### Offenbarung: Der Kampf (Teil 188)
 
 Schritte 1085 bis 1091. In Bildern erzählt: Der Drache und die Tiere kämpfen gegen Gottes Volk, Schalen des Zorns werden ausgegossen, und Babylon fällt.
 
@@ -2269,7 +2269,7 @@ Schritte 1085 bis 1091. In Bildern erzählt: Der Drache und die Tiere kämpfen g
 
 Video: [BibleProject: Offenbarung Kap. 12-22](https://youtu.be/Pl_LqxxFFAo)
 
-### 189. Offenbarung: Alles wird neu
+### Offenbarung: Alles wird neu (Teil 189)
 
 Schritte 1092 bis 1095. Christus siegt, der Tod wird besiegt, und Gott wohnt bei den Menschen in einer neuen Stadt mit dem Baum des Lebens.
 
