@@ -1,25 +1,28 @@
-# Plan: 3 Jahre, ein Kapitel pro Woche
+# Plan: 3 Jahre in Häppchen
 
-156 Wochen in 12 Bögen zu je 13 Wochen. Jede Woche hat ein Kapitel, eine theologische Deutung, das Gespräch nach
-den 7 Fragen und einen kleinen täglichen Schritt. Jeder geht in seinem Tempo.
+Die Reihenfolge ist der 3-Jahres-Plan in `read_plans/3y_plan_de.csv`: 1.095 Schritte, ein Kapitel je Schritt,
+die ganze Bibel, ungefähr in der Zeit der Ereignisse. Hier ist er in 189 Häppchen zu je 1 bis 8 Schritten
+eingeteilt, jedes mit einem Titel und einem Satz, worum es geht. "3 Jahre" ist nur ein Richtwert: jeder geht in
+seinem Tempo, der eine in 1 Jahr, der andere in 3, der nächste in 5.
 
 | Datei | Inhalt |
 |---|---|
-| `GERUEST.md` | Alle 156 Wochen mit Kapitel und Bogen |
-| `SPIELMECHANIK.md` | Tägliche Schritte, Flamme, Gruppentag |
-| `TODO-ANTWORTEN.md` | Antworten und Vorschläge zur todo.md |
-| `EINSTIEG.md` | Einstieg für Suchende: Wer ist Jesus? Sechs Wochen mit Markus (Entwurf) |
-| `wochen/woche-001.md` bis `woche-013.md` | Bogen 1 ausgearbeitet, Woche 1 ist das Muster |
-| `pruefen.sh` | Prüft, dass das Gerüst 156 Wochen lückenlos und ohne Doppel hat |
-| `querverweise.sh` | Listet die Verweise zwischen den Wochen |
+| `HAEPPCHEN.md` | Die Übersicht zum Lesen: Einleitung für Neulinge, Wörter kurz erklärt, 14 Teile, 189 Häppchen mit Stellen und Videos |
+| `haeppchen.csv` | Die Einteilung: erster und letzter Schritt, Titel, ein Satz je Häppchen |
+| `haeppchen_bauen.py` | Baut `HAEPPCHEN.md` aus `read_plans/3y_plan_de.csv` und `haeppchen.csv` und prüft, dass jeder Schritt in genau einem Häppchen steht |
 
-Stand: Entwurf vom 15. bis 17.11.2026, Bogen 2 bis 12 folgen.
+Ändern: `haeppchen.csv` bearbeiten, dann `python plan/haeppchen_bauen.py` (Python 3, keine Zusatzpakete).
+`HAEPPCHEN.md` nicht von Hand ändern.
 
 ## Bibeltext
 
-Gelesen wird in der Lutherbibel 2017, jeder in seiner eigenen Bibel oder App. Die Wochen enthalten nur
-Stellenangaben und kurze Zitate einzelner Verse, keine ganzen Abschnitte.
+Gelesen wird in der Lutherbibel 2017, jeder in seiner eigenen Bibel oder App. Die Häppchen enthalten nur
+Stellenangaben und eigene Zusammenfassungen, keine Bibelzitate. Kapitel in Luther-Zählung: in der Lutherbibel
+hat Joel 4 Kapitel und Maleachi 3, darum stehen die Schritte 837, 838 und 841 hier anders als in
+`3y_plan_de.csv`.
 
-Kurze Bibelzitate: Schlachter 1951, © 1951 Genfer Bibelgesellschaft, lizenziert unter Creative Commons
-Namensnennung 4.0 (CC BY 4.0), Text nach https://ebible.org/deu1951/ . Die Zitate fallen nicht unter die
-CC0-Lizenz dieses Repositorys, sondern unter CC BY 4.0. Rechtschreibung wie im Original (etwa "daß").
+## Geprüft
+
+Jede Fassung prüfen zwei Leser mit Vetorecht: einer auf Bibeltreue (stimmt jede Aussage mit den genannten
+Kapiteln, nichts hinzugedichtet, keine Zitate), einer mit dem Blick eines Suchenden ohne Vorwissen (verständlich,
+ohne Kirchensprache, kein Druck). Diese Fassung haben beide freigegeben.
